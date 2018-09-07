@@ -1,4 +1,4 @@
-// import database
+const { User, Location } = require('../database/index.js');
 
 module.exports = {
   fetch: (req, res) => {

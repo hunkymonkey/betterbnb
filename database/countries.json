@@ -1,5 +1,7 @@
-{
-  "Afghanistan": [
+[
+  { 
+    "country": "Afghanistan",
+    "cities": [ 
     "Herat",
     "Kabul",
     "Kandahar",
@@ -8,16 +10,22 @@
     "Shar",
     "Sharif",
     "Wazir Akbar Khan"
-  ],
-  "Albania": [
+  ] 
+},
+  { 
+    "country": "Albania",
+    "cities": [ 
     "Elbasan",
     "Petran",
     "Pogradec",
     "Shkoder",
     "Tirana",
     "Ura Vajgurore"
-  ],
-  "Algeria": [
+  ] 
+},
+  { 
+    "country": "Algeria",
+    "cities": [ 
     "Algiers",
     "Annaba",
     "Azazga",
@@ -50,8 +58,11 @@
     "Tizi",
     "Tizi Ouzou",
     "Tlemcen"
-  ],
-  "Andorra": [
+  ] 
+},
+  { 
+    "country": "Andorra",
+    "cities": [ 
     "Andorra la Vella",
     "Canillo",
     "Encamp",
@@ -63,8 +74,11 @@
     "Santa Coloma",
     "Sispony",
     "Soldeu"
-  ],
-  "Angola": [
+  ] 
+},
+  { 
+    "country": "Angola",
+    "cities": [ 
     "Ambriz",
     "Benguela",
     "Cabinda",
@@ -86,16 +100,22 @@
     "Piri",
     "Saurimo",
     "Talatona"
-  ],
-  "Antigua and Barbuda": [
+  ] 
+},
+  { 
+    "country": "Antigua and Barbuda",
+    "cities": [ 
     "All Saints",
     "Cassada Gardens",
     "Codrington",
     "Old Road",
     "Parham",
     "Woods"
-  ],
-  "Argentina": [
+  ] 
+},
+  { 
+    "country": "Argentina",
+    "cities": [ 
     "28 de Noviembre",
     "Abasto",
     "Acassuso",
@@ -708,8 +728,11 @@
     "Winifreda",
     "Yerba Buena",
     "Zenon Pereyra"
-  ],
-  "Armenia": [
+  ] 
+},
+  { 
+    "country": "Armenia",
+    "cities": [ 
     "Abovyan",
     "Agarak",
     "Apaga",
@@ -724,8 +747,11 @@
     "Tsaghkadzor",
     "Vanadzor",
     "Yerevan"
-  ],
-  "Aruba": [
+  ] 
+},
+  { 
+    "country": "Aruba",
+    "cities": [ 
     "Noord",
     "Oranjestad",
     "Palm Beach",
@@ -737,8 +763,11 @@
     "Sero Blanco",
     "Sint Nicolaas",
     "Tanki Lender"
-  ],
-  "Australia": [
+  ] 
+},
+  { 
+    "country": "Australia",
+    "cities": [ 
     "Abbotsford",
     "Abbotsford",
     "Abbotsham",
@@ -2782,8 +2811,11 @@
     "Young",
     "Yowie Bay",
     "Zeehan"
-  ],
-  "Austria": [
+  ] 
+},
+  { 
+    "country": "Austria",
+    "cities": [ 
     "Absam",
     "Absdorf",
     "Abtenau",
@@ -4184,8 +4216,11 @@
     "Zwentendorf",
     "Zwettl Stadt",
     "Zwolfaxing"
-  ],
-  "Azerbaijan": [
+  ] 
+},
+  { 
+    "country": "Azerbaijan",
+    "cities": [ 
     "Baku",
     "Nakhchivan",
     "Quba",
@@ -4194,8 +4229,11 @@
     "Sumqayit",
     "Xirdalan",
     "Zurges"
-  ],
-  "Bahamas": [
+  ] 
+},
+  { 
+    "country": "Bahamas",
+    "cities": [ 
     "Andros Town",
     "Dunmore Town",
     "Freeport",
@@ -4203,8 +4241,11 @@
     "Nassau",
     "Palmetto Point",
     "Spanish Wells"
-  ],
-  "Bahrain": [
+  ] 
+},
+  { 
+    "country": "Bahrain",
+    "cities": [ 
     "Al Budayyi`",
     "Al Hadd",
     "Al Hamalah",
@@ -4222,8 +4263,11 @@
     "Sanad",
     "Sitrah",
     "Tubli"
-  ],
-  "Bangladesh": [
+  ] 
+},
+  { 
+    "country": "Bangladesh",
+    "cities": [ 
     "Agrabad",
     "Bangla",
     "Barisal",
@@ -4241,8 +4285,11 @@
     "Rajshahi",
     "Tejgaon",
     "Uttara"
-  ],
-  "Barbados": [
+  ] 
+},
+  { 
+    "country": "Barbados",
+    "cities": [ 
     "Atlantic Shores",
     "Bagatelle",
     "Bloomsbury",
@@ -4266,8 +4313,11 @@
     "White Hill",
     "Wildey",
     "Worthing"
-  ],
-  "Belarus": [
+  ] 
+},
+  { 
+    "country": "Belarus",
+    "cities": [ 
     "Baranovichi",
     "Borisov",
     "Brest",
@@ -4290,8 +4340,11 @@
     "Vitebsk",
     "Zaslawye",
     "Zhodzina"
-  ],
-  "Belgium": [
+  ] 
+},
+  { 
+    "country": "Belgium",
+    "cities": [ 
     "Aalbeke",
     "Aalst",
     "Aalter",
@@ -5442,8 +5495,11 @@
     "Zwevezele",
     "Zwijnaarde",
     "Zwijndrecht"
-  ],
-  "Belize": [
+  ] 
+},
+  { 
+    "country": "Belize",
+    "cities": [ 
     "Belize City",
     "Belmopan",
     "Benque Viejo del Carmen",
@@ -5451,8 +5507,11 @@
     "Ladyville",
     "San Ignacio",
     "San Pedro Town"
-  ],
-  "Bolivia": [
+  ] 
+},
+  { 
+    "country": "Bolivia",
+    "cities": [ 
     "Anillo",
     "Aroma",
     "Bermejo",
@@ -5470,8 +5529,11 @@
     "Sucre",
     "Tarija",
     "Trinidad"
-  ],
-  "Bosnia and Herzegovina": [
+  ] 
+},
+  { 
+    "country": "Bosnia and Herzegovina",
+    "cities": [ 
     "Banja",
     "Banja Luka",
     "Bijeljina",
@@ -5512,15 +5574,21 @@
     "Zenica",
     "Zepce",
     "Zivinice"
-  ],
-  "Botswana": [
+  ] 
+},
+  { 
+    "country": "Botswana",
+    "cities": [ 
     "Francistown",
     "Gaborone",
     "Orapa",
     "Serowe",
     "Village"
-  ],
-  "Brazil": [
+  ] 
+},
+  { 
+    "country": "Brazil",
+    "cities": [ 
     "Abadiania",
     "Abaetetuba",
     "Abelardo Luz",
@@ -7565,8 +7633,11 @@
     "Xanxere",
     "Xavantina",
     "Xaxim"
-  ],
-  "Brunei": [
+  ] 
+},
+  { 
+    "country": "Brunei",
+    "cities": [ 
     "Bandar Seri Begawan",
     "Bangar",
     "Kampong Jerudong",
@@ -7575,8 +7646,11 @@
     "Panaga",
     "Seria",
     "Tutong"
-  ],
-  "Bulgaria": [
+  ] 
+},
+  { 
+    "country": "Bulgaria",
+    "cities": [ 
     "Akhtopol",
     "Aksakovo",
     "Aleksandriya",
@@ -7799,8 +7873,11 @@
     "Zavet",
     "Zlatitrap",
     "Zlatograd"
-  ],
-  "Cambodia": [
+  ] 
+},
+  { 
+    "country": "Cambodia",
+    "cities": [ 
     "Moung Roessei",
     "Phnom Penh",
     "Phumi Boeng (1)",
@@ -7815,8 +7892,11 @@
     "Sihanoukville",
     "Tuol Kok",
     "Vott Kampong Svay"
-  ],
-  "Cameroon": [
+  ] 
+},
+  { 
+    "country": "Cameroon",
+    "cities": [ 
     "Bafia",
     "Bafoussam",
     "Bamenda",
@@ -7826,8 +7906,11 @@
     "Kumba",
     "Ringo",
     "Tibati"
-  ],
-  "Canada": [
+  ] 
+},
+  { 
+    "country": "Canada",
+    "cities": [ 
     "100 Mile House",
     "Abbey",
     "Abbotsford",
@@ -9973,8 +10056,11 @@
     "Youbou",
     "Young",
     "Youngstown"
-  ],
-  "Cayman Islands": [
+  ] 
+},
+  { 
+    "country": "Cayman Islands",
+    "cities": [ 
     "Bodden Town",
     "Coral Gables",
     "George Town",
@@ -9982,8 +10068,11 @@
     "Savannah",
     "Spot Bay",
     "West Bay"
-  ],
-  "Chile": [
+  ] 
+},
+  { 
+    "country": "Chile",
+    "cities": [ 
     "Algarrobo",
     "Angol",
     "Antofagasta",
@@ -10105,8 +10194,11 @@
     "Villa Alemana",
     "Villarrica",
     "Vitacura"
-  ],
-  "China": [
+  ] 
+},
+  { 
+    "country": "China",
+    "cities": [ 
     "Aishang",
     "Aizhou",
     "Aksu",
@@ -11905,8 +11997,11 @@
     "Zoucheng",
     "Zunyi",
     "Zuxi"
-  ],
-  "Colombia": [
+  ] 
+},
+  { 
+    "country": "Colombia",
+    "cities": [ 
     "Acacias",
     "Acevedo",
     "Aguachica",
@@ -12018,15 +12113,21 @@
     "Yopal",
     "Yotoco",
     "Yumbo"
-  ],
-  "Congo": [
+  ] 
+},
+  { 
+    "country": "Congo",
+    "cities": [ 
     "Banana",
     "Goma",
     "Kinshasa",
     "Likasi",
     "Lubumbashi"
-  ],
-  "Costa Rica": [
+  ] 
+},
+  { 
+    "country": "Costa Rica",
+    "cities": [ 
     "Alajuela",
     "Alajuelita",
     "Alfaro",
@@ -12094,8 +12195,11 @@
     "Turrucares",
     "Zapote",
     "Zarcero"
-  ],
-  "Croatia": [
+  ] 
+},
+  { 
+    "country": "Croatia",
+    "cities": [ 
     "Antunovac",
     "Baska",
     "Baska Voda",
@@ -12239,8 +12343,11 @@
     "Zagreb",
     "Zapresic",
     "Zlatar"
-  ],
-  "Cuba": [
+  ] 
+},
+  { 
+    "country": "Cuba",
+    "cities": [ 
     "Bayamo",
     "Cienfuegos",
     "Habana",
@@ -12251,8 +12358,11 @@
     "Santiago de Cuba",
     "Varadero",
     "Villa"
-  ],
-  "Cyprus": [
+  ] 
+},
+  { 
+    "country": "Cyprus",
+    "cities": [ 
     "Agia Anna",
     "Aradippou",
     "Ayia Marina",
@@ -12278,8 +12388,11 @@
     "Sotira",
     "Strovolos",
     "Tera"
-  ],
-  "Czech Republic": [
+  ] 
+},
+  { 
+    "country": "Czech Republic",
+    "cities": [ 
     "Adamov",
     "Albrechtice",
     "Arnoltice",
@@ -13240,8 +13353,11 @@
     "Zubri",
     "Zulova",
     "Zvole"
-  ],
-  "Denmark": [
+  ] 
+},
+  { 
+    "country": "Denmark",
+    "cities": [ 
     "Aabenraa",
     "Aabybro",
     "Aalborg",
@@ -13818,8 +13934,11 @@
     "Vorbasse",
     "Vordingborg",
     "Vra"
-  ],
-  "Dominican Republic": [
+  ] 
+},
+  { 
+    "country": "Dominican Republic",
+    "cities": [ 
     "Arenazo",
     "Bavaro",
     "Boca Chica",
@@ -13843,8 +13962,11 @@
     "Santa Cruz de Barahona",
     "Santiago de los Caballeros",
     "Santo Domingo"
-  ],
-  "Ecuador": [
+  ] 
+},
+  { 
+    "country": "Ecuador",
+    "cities": [ 
     "Ambato",
     "Atacames",
     "Atuntaqui",
@@ -13914,8 +14036,11 @@
     "Zamora",
     "Zaruma",
     "Zumba"
-  ],
-  "Egypt": [
+  ] 
+},
+  { 
+    "country": "Egypt",
+    "cities": [ 
     "Abu Hammad",
     "Al Mahallah al Kubra",
     "Al Mansurah",
@@ -13955,8 +14080,11 @@
     "Tanta",
     "Toukh",
     "Zagazig"
-  ],
-  "El Salvador": [
+  ] 
+},
+  { 
+    "country": "El Salvador",
+    "cities": [ 
     "Ahuachapan",
     "Antiguo Cuscatlan",
     "Apaneca",
@@ -13987,8 +14115,11 @@
     "Soyapango",
     "Usulutan",
     "Zaragoza"
-  ],
-  "Estonia": [
+  ] 
+},
+  { 
+    "country": "Estonia",
+    "cities": [ 
     "Aasmae",
     "Aaviku",
     "Aespa",
@@ -14056,8 +14187,11 @@
     "Viimsi",
     "Viljandi",
     "Voka"
-  ],
-  "Faroe Islands": [
+  ] 
+},
+  { 
+    "country": "Faroe Islands",
+    "cities": [ 
     "Argir",
     "Glyvrar",
     "Hvalba",
@@ -14066,8 +14200,11 @@
     "Saltangara",
     "Signabour",
     "Strendur"
-  ],
-  "Finland": [
+  ] 
+},
+  { 
+    "country": "Finland",
+    "cities": [ 
     "Aapajoki",
     "Aavasaksa",
     "Aitoo",
@@ -14543,8 +14680,11 @@
     "Ylitornio",
     "Ylivieska",
     "Ypaejae"
-  ],
-  "France": [
+  ] 
+},
+  { 
+    "country": "France",
+    "cities": [ 
     "Aast",
     "Abancourt",
     "Abbans-Dessus",
@@ -27428,8 +27568,11 @@
     "Zittersheim",
     "Zouafques",
     "Zutzendorf"
-  ],
-  "French Polynesia": [
+  ] 
+},
+  { 
+    "country": "French Polynesia",
+    "cities": [ 
     "Arue",
     "Faaa",
     "Mahina",
@@ -27437,15 +27580,21 @@
     "Papeete",
     "Pirae",
     "Punaauia"
-  ],
-  "Gabon": [
+  ] 
+},
+  { 
+    "country": "Gabon",
+    "cities": [ 
     "Gamba",
     "Libreville",
     "Mamagnia",
     "Moanda",
     "Port-Gentil"
-  ],
-  "Georgia": [
+  ] 
+},
+  { 
+    "country": "Georgia",
+    "cities": [ 
     "Gogolesubani",
     "Kutaisi",
     "Lentekhi",
@@ -27455,8 +27604,11 @@
     "Tbilisi",
     "Zemo-Avchala",
     "Zugdidi"
-  ],
-  "Germany": [
+  ] 
+},
+  { 
+    "country": "Germany",
+    "cities": [ 
     "Aach",
     "Aach",
     "Aachen",
@@ -35084,8 +35236,11 @@
     "Zwingenberg",
     "Zwingenberg",
     "Zwonitz"
-  ],
-  "Ghana": [
+  ] 
+},
+  { 
+    "country": "Ghana",
+    "cities": [ 
     "Accra",
     "Bawku",
     "Berekum",
@@ -35102,8 +35257,11 @@
     "Tema",
     "Wa",
     "Winneba"
-  ],
-  "Greece": [
+  ] 
+},
+  { 
+    "country": "Greece",
+    "cities": [ 
     "Aegina",
     "Agioi Anargyroi",
     "Agios Nikolaos",
@@ -35271,8 +35429,11 @@
     "Xanthi",
     "Xylokastro",
     "Zakynthos"
-  ],
-  "Greenland": [
+  ] 
+},
+  { 
+    "country": "Greenland",
+    "cities": [ 
     "Aasiaat",
     "Ilulissat",
     "Kapisillit",
@@ -35290,8 +35451,11 @@
     "Tasiilaq",
     "Upernavik",
     "Uummannaq Kommune"
-  ],
-  "Guadeloupe": [
+  ] 
+},
+  { 
+    "country": "Guadeloupe",
+    "cities": [ 
     "Anse-Bertrand",
     "Baie Mahault",
     "Baie-Mahault",
@@ -35320,16 +35484,22 @@
     "Terre-de-Haut",
     "Trois-Rivieres",
     "Village"
-  ],
-  "Guam": [
+  ] 
+},
+  { 
+    "country": "Guam",
+    "cities": [ 
     "Barrigada Village",
     "Dededo Village",
     "Inarajan Village",
     "Santa Rita",
     "Tamuning-Tumon-Harmon Village",
     "Yigo Village"
-  ],
-  "Guatemala": [
+  ] 
+},
+  { 
+    "country": "Guatemala",
+    "cities": [ 
     "Antigua Guatemala",
     "Cambote",
     "Catarina",
@@ -35373,8 +35543,11 @@
     "Villa Nueva",
     "Vista Hermosa",
     "Zacapa"
-  ],
-  "Guinea": [
+  ] 
+},
+  { 
+    "country": "Guinea",
+    "cities": [ 
     "Conakry",
     "Dabola",
     "Kalia",
@@ -35383,8 +35556,11 @@
     "Mamou",
     "Port Kamsar",
     "Sangaredi"
-  ],
-  "Haiti": [
+  ] 
+},
+  { 
+    "country": "Haiti",
+    "cities": [ 
     "Carrefour",
     "Delmar",
     "Duverger",
@@ -35395,8 +35571,11 @@
     "Port-au-Prince",
     "Prince",
     "Turgeau"
-  ],
-  "Hashemite Kingdom of Jordan": [
+  ] 
+},
+  { 
+    "country": "Hashemite Kingdom of Jordan",
+    "cities": [ 
     "Amman",
     "Ar Ramtha",
     "Farah",
@@ -35404,8 +35583,11 @@
     "Madaba",
     "Sahab",
     "Salt"
-  ],
-  "Honduras": [
+  ] 
+},
+  { 
+    "country": "Honduras",
+    "cities": [ 
     "Choloma",
     "Comayagua",
     "Comayaguela",
@@ -35425,8 +35607,11 @@
     "Santa Barbara",
     "Sula",
     "Tegucigalpa"
-  ],
-  "Hong Kong": [
+  ] 
+},
+  { 
+    "country": "Hong Kong",
+    "cities": [ 
     "Aberdeen",
     "Causeway Bay",
     "Central District",
@@ -35509,8 +35694,11 @@
     "Yau Ma Tei",
     "Ying Pun",
     "Yuen Long San Hui"
-  ],
-  "Hungary": [
+  ] 
+},
+  { 
+    "country": "Hungary",
+    "cities": [ 
     "Abaujszanto",
     "Abda",
     "Abony",
@@ -36250,8 +36438,11 @@
     "Zsambek",
     "Zsambok",
     "Zsombo"
-  ],
-  "Iceland": [
+  ] 
+},
+  { 
+    "country": "Iceland",
+    "cities": [ 
     "Akranes",
     "Akureyri",
     "Borgarnes",
@@ -36270,8 +36461,11 @@
     "Stokkseyri",
     "Vestmannaeyjar",
     "Vogar"
-  ],
-  "India": [
+  ] 
+},
+  { 
+    "country": "India",
+    "cities": [ 
     "Abdul",
     "Adilabad",
     "Adwani",
@@ -37292,8 +37486,11 @@
     "Yavatmal",
     "Yeola",
     "Yercaud"
-  ],
-  "Indonesia": [
+  ] 
+},
+  { 
+    "country": "Indonesia",
+    "cities": [ 
     "Abadi",
     "Adiantorop",
     "Airmadidi",
@@ -37567,8 +37764,11 @@
     "Wonosari",
     "Wonosobo",
     "Yogyakarta"
-  ],
-  "Iran": [
+  ] 
+},
+  { 
+    "country": "Iran",
+    "cities": [ 
     "`Aliabad",
     "`Aliabad-e Aq Hesar",
     "`Oryan",
@@ -37802,8 +38002,11 @@
     "Zangiabad",
     "Zanjan",
     "Zarand"
-  ],
-  "Iraq": [
+  ] 
+},
+  { 
+    "country": "Iraq",
+    "cities": [ 
     "Al `Amarah",
     "Al Hillah",
     "Baghdad",
@@ -37820,8 +38023,11 @@
     "Najaf",
     "Sulaymaniyah",
     "Tikrit"
-  ],
-  "Ireland": [
+  ] 
+},
+  { 
+    "country": "Ireland",
+    "cities": [ 
     "Abbeyfeale",
     "Abbeyleix",
     "Ardee",
@@ -38114,8 +38320,11 @@
     "Williamstown",
     "Windy Arbour",
     "Youghal"
-  ],
-  "Isle of Man": [
+  ] 
+},
+  { 
+    "country": "Isle of Man",
+    "cities": [ 
     "Ballasalla",
     "Castletown",
     "Crosby",
@@ -38129,8 +38338,11 @@
     "Port Saint Mary",
     "Ramsey",
     "Saint Johns"
-  ],
-  "Israel": [
+  ] 
+},
+  { 
+    "country": "Israel",
+    "cities": [ 
     "`Alma",
     "`Amir",
     "`Arugot",
@@ -38282,8 +38494,11 @@
     "Yavne",
     "Yehud",
     "Zoran"
-  ],
-  "Italy": [
+  ] 
+},
+  { 
+    "country": "Italy",
+    "cities": [ 
     "Abano Terme",
     "Abbadia Lariana",
     "Abbadia San Salvatore",
@@ -42771,8 +42986,11 @@
     "Zollino",
     "Zoppola",
     "Zumaglia"
-  ],
-  "Jamaica": [
+  ] 
+},
+  { 
+    "country": "Jamaica",
+    "cities": [ 
     "Black River",
     "Browns Town",
     "Gordon Town",
@@ -42790,8 +43008,11 @@
     "Portmore",
     "Runaway Bay",
     "Spanish Town"
-  ],
-  "Japan": [
+  ] 
+},
+  { 
+    "country": "Japan",
+    "cities": [ 
     "Abashiri",
     "Abiko",
     "Abira",
@@ -44013,8 +44234,11 @@
     "Yuzawa",
     "Zama",
     "Zushi"
-  ],
-  "Kazakhstan": [
+  ] 
+},
+  { 
+    "country": "Kazakhstan",
+    "cities": [ 
     "Aksay",
     "Aksoran",
     "Almaty",
@@ -44058,8 +44282,11 @@
     "Ust-Kamenogorsk",
     "Vostok",
     "Zyryanovsk"
-  ],
-  "Kenya": [
+  ] 
+},
+  { 
+    "country": "Kenya",
+    "cities": [ 
     "Bondo",
     "Chuka",
     "Eldoret",
@@ -44083,15 +44310,21 @@
     "Thika",
     "Turbo",
     "Wote"
-  ],
-  "Kosovo": [
+  ] 
+},
+  { 
+    "country": "Kosovo",
+    "cities": [ 
     "Dunavo",
     "Ferizaj",
     "Mitrovica",
     "Pristina",
     "Prizren"
-  ],
-  "Kuwait": [
+  ] 
+},
+  { 
+    "country": "Kuwait",
+    "cities": [ 
     "Abraq Khaytan",
     "Ad Dasmah",
     "Ad Dawhah",
@@ -44108,8 +44341,11 @@
     "Kayfan",
     "Kuwait City",
     "Salwa"
-  ],
-  "Latvia": [
+  ] 
+},
+  { 
+    "country": "Latvia",
+    "cities": [ 
     "Adazi",
     "Agenskalns",
     "Aizkraukle",
@@ -44158,8 +44394,11 @@
     "Ventspils",
     "Zasa",
     "Zilupe"
-  ],
-  "Lebanon": [
+  ] 
+},
+  { 
+    "country": "Lebanon",
+    "cities": [ 
     "Aaley",
     "Adma",
     "Ashrafiye",
@@ -44178,15 +44417,21 @@
     "Tripoli",
     "Yanar",
     "Zgharta"
-  ],
-  "Libya": [
+  ] 
+},
+  { 
+    "country": "Libya",
+    "cities": [ 
     "Benghazi",
     "Misratah",
     "Sabha",
     "Tripoli",
     "Zliten"
-  ],
-  "Liechtenstein": [
+  ] 
+},
+  { 
+    "country": "Liechtenstein",
+    "cities": [ 
     "Balzers",
     "Bendern",
     "Eschen",
@@ -44201,8 +44446,11 @@
     "Triesen",
     "Triesenberg",
     "Vaduz"
-  ],
-  "Luxembourg": [
+  ] 
+},
+  { 
+    "country": "Luxembourg",
+    "cities": [ 
     "Ahn",
     "Alzingen",
     "Bascharage",
@@ -44319,8 +44567,11 @@
     "Wasserbillig",
     "Wolpert",
     "Wormeldange"
-  ],
-  "Macedonia": [
+  ] 
+},
+  { 
+    "country": "Macedonia",
+    "cities": [ 
     "Berovo",
     "Bitola",
     "Bogdanci",
@@ -44351,8 +44602,11 @@
     "Strumica",
     "Tetovo",
     "Veles"
-  ],
-  "Madagascar": [
+  ] 
+},
+  { 
+    "country": "Madagascar",
+    "cities": [ 
     "Ambanja",
     "Antananarivo",
     "Antsirabe",
@@ -44360,8 +44614,11 @@
     "Fianarantsoa",
     "Toamasina",
     "Toliara"
-  ],
-  "Malaysia": [
+  ] 
+},
+  { 
+    "country": "Malaysia",
+    "cities": [ 
     "Alor Gajah",
     "Alor Star",
     "Ampang",
@@ -44638,8 +44895,11 @@
     "Tumpat",
     "Ulu Tiram",
     "Victoria"
-  ],
-  "Malta": [
+  ] 
+},
+  { 
+    "country": "Malta",
+    "cities": [ 
     "Attard",
     "Balzan",
     "Bingemma",
@@ -44706,8 +44966,11 @@
     "Zabbar",
     "Zejtun",
     "Zurrieq"
-  ],
-  "Martinique": [
+  ] 
+},
+  { 
+    "country": "Martinique",
+    "cities": [ 
     "Case-Pilote",
     "Ducos",
     "Fort-de-France",
@@ -44726,8 +44989,11 @@
     "Sainte-Luce",
     "Sainte-Marie",
     "Schoelcher"
-  ],
-  "Mauritius": [
+  ] 
+},
+  { 
+    "country": "Mauritius",
+    "cities": [ 
     "Beau Bassin",
     "Chemin Grenier",
     "Ebene CyberCity",
@@ -44741,8 +45007,11 @@
     "Saint Jean",
     "Tamarin",
     "Vacoas"
-  ],
-  "Mayotte": [
+  ] 
+},
+  { 
+    "country": "Mayotte",
+    "cities": [ 
     "Bandaboa",
     "Chiconi",
     "Combani",
@@ -44755,8 +45024,11 @@
     "Sada",
     "Tsingoni",
     "Tsoundzou 1"
-  ],
-  "Mexico": [
+  ] 
+},
+  { 
+    "country": "Mexico",
+    "cities": [ 
     "Abasolo",
     "Acambaro",
     "Acambay",
@@ -45267,7 +45539,7 @@
     "San Cristobal",
     "San Cristobal",
     "San Felipe",
-    "San Felipe Torres Mochas [Ganaderia]",
+    "San Felipe Torres Mochas [Ganaderia] }",
     "San Fernando",
     "San Fernando",
     "San Francisco",
@@ -45505,8 +45777,11 @@
     "Zitlala",
     "Zongolica",
     "Zumpango"
-  ],
-  "Mongolia": [
+  ] 
+},
+  { 
+    "country": "Mongolia",
+    "cities": [ 
     "Altai",
     "Arvayheer",
     "Baruun-Urt",
@@ -45528,8 +45803,11 @@
     "Ulan Bator",
     "Uliastay",
     "Undurkhaan"
-  ],
-  "Montenegro": [
+  ] 
+},
+  { 
+    "country": "Montenegro",
+    "cities": [ 
     "Budva",
     "Crna Gora",
     "Herceg Novi",
@@ -45540,8 +45818,11 @@
     "Podgorica",
     "Stari Bar",
     "Ulcinj"
-  ],
-  "Morocco": [
+  ] 
+},
+  { 
+    "country": "Morocco",
+    "cities": [ 
     "Afourer",
     "Agadir",
     "Ait Melloul",
@@ -45589,8 +45870,11 @@
     "Tiflet",
     "Tiznit",
     "Touissite"
-  ],
-  "Mozambique": [
+  ] 
+},
+  { 
+    "country": "Mozambique",
+    "cities": [ 
     "Beira",
     "Maputo",
     "Matola",
@@ -45599,16 +45883,22 @@
     "Pemba",
     "Quelimane",
     "Tete"
-  ],
-  "Myanmar [Burma]": [
+  ] 
+},
+  { 
+    "country": "Myanmar [Burma] }",
+    "cities": [ 
     "Hlaing",
     "Inya",
     "Kyauktada",
     "Mandalay",
     "Wagan",
     "Yangon"
-  ],
-  "Namibia": [
+  ] 
+},
+  { 
+    "country": "Namibia",
+    "cities": [ 
     "Etunda",
     "Grootfontein",
     "Katima Mulilo",
@@ -45625,16 +45915,22 @@
     "Tsumeb",
     "Walvis Bay",
     "Windhoek"
-  ],
-  "Nepal": [
+  ] 
+},
+  { 
+    "country": "Nepal",
+    "cities": [ 
     "Bharatpur",
     "Jawlakhel",
     "Kathmandu",
     "Lumbini",
     "Palpa",
     "Patan"
-  ],
-  "Netherlands": [
+  ] 
+},
+  { 
+    "country": "Netherlands",
+    "cities": [ 
     "Aagtekerke",
     "Aalburg",
     "Aalden",
@@ -47098,15 +47394,21 @@
     "Zwijndrecht",
     "Zwinderen",
     "Zwolle"
-  ],
-  "New Caledonia": [
+  ] 
+},
+  { 
+    "country": "New Caledonia",
+    "cities": [ 
     "Dumbea",
     "Mont-Dore",
     "Noumea",
     "Nouville",
     "Paita"
-  ],
-  "New Zealand": [
+  ] 
+},
+  { 
+    "country": "New Zealand",
+    "cities": [ 
     "Ahaura",
     "Albany",
     "Amberley",
@@ -47387,8 +47689,11 @@
     "Woolston",
     "Wyndham",
     "Yaldhurst"
-  ],
-  "Nicaragua": [
+  ] 
+},
+  { 
+    "country": "Nicaragua",
+    "cities": [ 
     "Bluefields",
     "Chinandega",
     "El Panama",
@@ -47402,8 +47707,11 @@
     "Ocotal",
     "Rivas",
     "San Juan del Sur"
-  ],
-  "Nigeria": [
+  ] 
+},
+  { 
+    "country": "Nigeria",
+    "cities": [ 
     "Aba",
     "Abakaliki",
     "Abeokuta",
@@ -47491,8 +47799,11 @@
     "Yaba",
     "Yola",
     "Zaria"
-  ],
-  "Norway": [
+  ] 
+},
+  { 
+    "country": "Norway",
+    "cities": [ 
     "Abelvaer",
     "Adalsbruk",
     "Adland",
@@ -48398,8 +48709,11 @@
     "Vossestrand",
     "Vraliosen",
     "Ytre Alvik"
-  ],
-  "Oman": [
+  ] 
+},
+  { 
+    "country": "Oman",
+    "cities": [ 
     "Al Sohar",
     "Muscat",
     "Nizwa",
@@ -48407,8 +48721,11 @@
     "Saham",
     "Salalah",
     "Samad"
-  ],
-  "Pakistan": [
+  ] 
+},
+  { 
+    "country": "Pakistan",
+    "cities": [ 
     "Abbottabad",
     "Attock",
     "Batgram",
@@ -48479,8 +48796,11 @@
     "Usman",
     "Wazirabad",
     "Ziauddin"
-  ],
-  "Palestine": [
+  ] 
+},
+  { 
+    "country": "Palestine",
+    "cities": [ 
     "Al Mawasi",
     "Bethlehem",
     "Gaza",
@@ -48489,8 +48809,11 @@
     "Jericho",
     "Nablus",
     "Ramallah"
-  ],
-  "Panama": [
+  ] 
+},
+  { 
+    "country": "Panama",
+    "cities": [ 
     "Aguadulce",
     "Albrook",
     "Ancon",
@@ -48564,8 +48887,11 @@
     "Victoria",
     "Vista Alegre",
     "Vista Hermosa"
-  ],
-  "Papua New Guinea": [
+  ] 
+},
+  { 
+    "country": "Papua New Guinea",
+    "cities": [ 
     "Aitape",
     "Arawa",
     "Daru",
@@ -48593,8 +48919,11 @@
     "Wabag",
     "Waigani",
     "Wewak"
-  ],
-  "Paraguay": [
+  ] 
+},
+  { 
+    "country": "Paraguay",
+    "cities": [ 
     "Ayolas",
     "Boqueron",
     "Chore",
@@ -48622,8 +48951,11 @@
     "Villa Hayes",
     "Villarrica",
     "Yataity"
-  ],
-  "Peru": [
+  ] 
+},
+  { 
+    "country": "Peru",
+    "cities": [ 
     "Abancay",
     "Arequipa",
     "Ate",
@@ -48709,8 +49041,11 @@
     "Tumbes",
     "Ventanilla",
     "Victoria"
-  ],
-  "Philippines": [
+  ] 
+},
+  { 
+    "country": "Philippines",
+    "cities": [ 
     "Abucay",
     "Acacia",
     "Aguilar",
@@ -49112,8 +49447,11 @@
     "Wines",
     "Zamboanga City",
     "Zamboanga City"
-  ],
-  "Poland": [
+  ] 
+},
+  { 
+    "country": "Poland",
+    "cities": [ 
     "Adama",
     "Alwernia",
     "Andrespol",
@@ -50755,8 +51093,11 @@
     "Zurawica",
     "Zwolen",
     "Zyrakow"
-  ],
-  "Portugal": [
+  ] 
+},
+  { 
+    "country": "Portugal",
+    "cities": [ 
     "Abobada",
     "Abrantes",
     "Acores",
@@ -51458,8 +51799,11 @@
     "Vizela",
     "Zambujal",
     "Zibreira"
-  ],
-  "Puerto Rico": [
+  ] 
+},
+  { 
+    "country": "Puerto Rico",
+    "cities": [ 
     "Adjuntas",
     "Aguada",
     "Aguadilla",
@@ -51547,8 +51891,11 @@
     "Villalba",
     "Yabucoa",
     "Yauco"
-  ],
-  "Republic of Korea": [
+  ] 
+},
+  { 
+    "country": "Republic of Korea",
+    "cities": [ 
     "Andong",
     "Ansan-si",
     "Anseong",
@@ -51642,8 +51989,11 @@
     "Yeosu",
     "Yongin",
     "Yongsan-dong"
-  ],
-  "Republic of Lithuania": [
+  ] 
+},
+  { 
+    "country": "Republic of Lithuania",
+    "cities": [ 
     "Alytus",
     "Anciskiai",
     "Antakalnis",
@@ -51667,8 +52017,11 @@
     "Vilniaus Apskritis",
     "Vilnius",
     "Visaginas"
-  ],
-  "Republic of Moldova": [
+  ] 
+},
+  { 
+    "country": "Republic of Moldova",
+    "cities": [ 
     "Anenii Noi",
     "Briceni",
     "Cahul",
@@ -51688,8 +52041,11 @@
     "Tiraspol",
     "Voinescu",
     "Vulcanesti"
-  ],
-  "Romania": [
+  ] 
+},
+  { 
+    "country": "Romania",
+    "cities": [ 
     "Adjud",
     "Afumati",
     "Agnita",
@@ -52045,8 +52401,11 @@
     "Voronet",
     "Zetea",
     "Zimnicea"
-  ],
-  "Russia": [
+  ] 
+},
+  { 
+    "country": "Russia",
+    "cities": [ 
     "Abakan",
     "Abinsk",
     "Achinsk",
@@ -53083,23 +53442,32 @@
     "Zvenigorod",
     "Zvenigovo",
     "Zvezda"
-  ],
-  "Saint Lucia": [
+  ] 
+},
+  { 
+    "country": "Saint Lucia",
+    "cities": [ 
     "Anse La Raye",
     "Castries",
     "Choiseul",
     "Dauphin",
     "Gros Islet",
     "Vieux Fort"
-  ],
-  "San Marino": [
+  ] 
+},
+  { 
+    "country": "San Marino",
+    "cities": [ 
     "Acquaviva",
     "Falciano",
     "Fiorentino",
     "San Marino",
     "Serravalle"
-  ],
-  "Saudi Arabia": [
+  ] 
+},
+  { 
+    "country": "Saudi Arabia",
+    "cities": [ 
     "Abha",
     "Abqaiq",
     "Al Bahah",
@@ -53139,8 +53507,11 @@
     "Sayhat",
     "Tabuk",
     "Yanbu` al Bahr"
-  ],
-  "Senegal": [
+  ] 
+},
+  { 
+    "country": "Senegal",
+    "cities": [ 
     "Boussinki",
     "Camberene",
     "Dakar",
@@ -53153,8 +53524,11 @@
     "Saint-Louis",
     "Sama",
     "Tanaf"
-  ],
-  "Serbia": [
+  ] 
+},
+  { 
+    "country": "Serbia",
+    "cities": [ 
     "Ada",
     "Aleksinac",
     "Apatin",
@@ -53248,8 +53622,11 @@
     "Zemun Polje",
     "Zlatibor",
     "Zrenjanin"
-  ],
-  "Singapore": [
+  ] 
+},
+  { 
+    "country": "Singapore",
+    "cities": [ 
     "Ang Mo Kio New Town",
     "Ayer Raja New Town",
     "Bedok New Town",
@@ -53284,8 +53661,11 @@
     "Woodlands New Town",
     "Yew Tee",
     "Yishun New Town"
-  ],
-  "Slovakia": [
+  ] 
+},
+  { 
+    "country": "Slovakia",
+    "cities": [ 
     "Bahon",
     "Baka",
     "Banovce nad Bebravou",
@@ -53516,8 +53896,11 @@
     "Zlate",
     "Zuberec",
     "Zvolen"
-  ],
-  "Slovenia": [
+  ] 
+},
+  { 
+    "country": "Slovenia",
+    "cities": [ 
     "Ankaran",
     "Begunje na Gorenjskem",
     "Beltinci",
@@ -53670,8 +54053,11 @@
     "Zgornje Skofije",
     "Zidani Most",
     "Ziri"
-  ],
-  "South Africa": [
+  ] 
+},
+  { 
+    "country": "South Africa",
+    "cities": [ 
     "Alberton",
     "Alice",
     "Alrode",
@@ -54000,8 +54386,11 @@
     "Worcester",
     "Wynberg",
     "Zeerust"
-  ],
-  "Spain": [
+  ] 
+},
+  { 
+    "country": "Spain",
+    "cities": [ 
     "A Cidade",
     "A Estrada",
     "A Pobra do Caraminal",
@@ -56456,8 +56845,11 @@
     "Zuera",
     "Zumaia",
     "Zumarraga"
-  ],
-  "Sri Lanka": [
+  ] 
+},
+  { 
+    "country": "Sri Lanka",
+    "cities": [ 
     "Badulla",
     "Battaramulla South",
     "Biyagama",
@@ -56495,16 +56887,22 @@
     "Talapathpitiya",
     "Wattala",
     "Wellampitiya"
-  ],
-  "Sudan": [
+  ] 
+},
+  { 
+    "country": "Sudan",
+    "cities": [ 
     "Kassala",
     "Khartoum",
     "Nyala",
     "Shendi",
     "Thabit",
     "Umm Durman"
-  ],
-  "Suriname": [
+  ] 
+},
+  { 
+    "country": "Suriname",
+    "cities": [ 
     "Botopasi",
     "Brownsweg",
     "Friendship",
@@ -56514,15 +56912,21 @@
     "Onverwacht",
     "Paramaribo",
     "Totness"
-  ],
-  "Swaziland": [
+  ] 
+},
+  { 
+    "country": "Swaziland",
+    "cities": [ 
     "Kwaluseni",
     "Lobamba",
     "Manzini",
     "Mbabane",
     "Piggs Peak"
-  ],
-  "Sweden": [
+  ] 
+},
+  { 
+    "country": "Sweden",
+    "cities": [ 
     "Aby",
     "AElmhult",
     "AElvdalen",
@@ -57746,8 +58150,11 @@
     "Ystad",
     "Ytterby",
     "Zinkgruvan"
-  ],
-  "Switzerland": [
+  ] 
+},
+  { 
+    "country": "Switzerland",
+    "cities": [ 
     "Aadorf",
     "Aarau",
     "Aarberg",
@@ -59072,8 +59479,11 @@
     "Zuzgen",
     "Zuzwil",
     "Zwingen"
-  ],
-  "Taiwan": [
+  ] 
+},
+  { 
+    "country": "Taiwan",
+    "cities": [ 
     "Budai",
     "Caogang",
     "Chang-hua",
@@ -59140,8 +59550,11 @@
     "Zhubei",
     "Zhunan",
     "Zhuqi"
-  ],
-  "Tanzania": [
+  ] 
+},
+  { 
+    "country": "Tanzania",
+    "cities": [ 
     "Arusha",
     "Bukoba",
     "Dar es Salaam",
@@ -59152,8 +59565,11 @@
     "Raha",
     "Tanga",
     "Zanzibar"
-  ],
-  "Thailand": [
+  ] 
+},
+  { 
+    "country": "Thailand",
+    "cities": [ 
     "Amnat Charoen",
     "Amphawa",
     "Amphoe Aranyaprathet",
@@ -59320,8 +59736,11 @@
     "Wiphawadi",
     "Yala",
     "Yasothon"
-  ],
-  "Trinidad and Tobago": [
+  ] 
+},
+  { 
+    "country": "Trinidad and Tobago",
+    "cities": [ 
     "Arima",
     "Arouca",
     "Barataria",
@@ -59371,8 +59790,11 @@
     "Victoria",
     "Ward of Tacarigua",
     "Woodbrook"
-  ],
-  "Tunisia": [
+  ] 
+},
+  { 
+    "country": "Tunisia",
+    "cities": [ 
     "Ariana",
     "Beja",
     "Gafsa",
@@ -59385,8 +59807,11 @@
     "Sidi Bouzid",
     "Sousse",
     "Tunis"
-  ],
-  "Turkey": [
+  ] 
+},
+  { 
+    "country": "Turkey",
+    "cities": [ 
     "Abdullah",
     "Acibadem",
     "Ada",
@@ -59664,15 +60089,21 @@
     "Zekeriya",
     "Zeytinburnu",
     "Zonguldak"
-  ],
-  "U.S. Virgin Islands": [
+  ] 
+},
+  { 
+    "country": "U.S. Virgin Islands",
+    "cities": [ 
     "Charlotte Amalie",
     "Christiansted",
     "Frederiksted",
     "Kingshill",
     "St John Island"
-  ],
-  "Ukraine": [
+  ] 
+},
+  { 
+    "country": "Ukraine",
+    "cities": [ 
     "Aleksandriya",
     "Aleksandrovka",
     "Alekseyevo-Druzhkovka",
@@ -59903,8 +60334,11 @@
     "Zmiyiv",
     "Zolochiv",
     "Zolotonosha"
-  ],
-  "United Arab Emirates": [
+  ] 
+},
+  { 
+    "country": "United Arab Emirates",
+    "cities": [ 
     "Abu Dhabi",
     "Al Ain",
     "Al Khan",
@@ -59915,8 +60349,11 @@
     "Fujairah",
     "Ras al-Khaimah",
     "Sharjah"
-  ],
-  "United Kingdom": [
+  ] 
+},
+  { 
+    "country": "United Kingdom",
+    "cities": [ 
     "Abberton",
     "Abbots Langley",
     "Aberaeron",
@@ -62958,8 +63395,11 @@
     "Ystrad Mynach",
     "Ystradgynlais",
     "Zeals"
-  ],
-  "United States": [
+  ] 
+},
+  { 
+    "country": "United States",
+    "cities": [ 
     "Abbeville",
     "Abbeville",
     "Abbeville",
@@ -83896,8 +84336,11 @@
     "Zuni",
     "Zurich",
     "Zwingle"
-  ],
-  "Uruguay": [
+  ] 
+},
+  { 
+    "country": "Uruguay",
+    "cities": [ 
     "Barra de Carrasco",
     "Canelones",
     "Colonia del Sacramento",
@@ -83914,8 +84357,11 @@
     "San Carlos",
     "Toledo",
     "Union"
-  ],
-  "Venezuela": [
+  ] 
+},
+  { 
+    "country": "Venezuela",
+    "cities": [ 
     "Acarigua",
     "Anaco",
     "Araure",
@@ -84006,8 +84452,11 @@
     "Valera",
     "Valle",
     "Vargas"
-  ],
-  "Vietnam": [
+  ] 
+},
+  { 
+    "country": "Vietnam",
+    "cities": [ 
     "An Dinh",
     "An Giang",
     "An Nhon",
@@ -84120,8 +84569,11 @@
     "Xom Truong Dinh",
     "Yen Bai",
     "Yen Thanh"
-  ],
-  "Zambia": [
+  ] 
+},
+  { 
+    "country": "Zambia",
+    "cities": [ 
     "Kalomo",
     "Kitwe",
     "Livingstone",
@@ -84131,8 +84583,11 @@
     "Ndola",
     "Siavonga",
     "Solwezi"
-  ],
-  "Zimbabwe": [
+  ] 
+},
+  { 
+    "country": "Zimbabwe",
+    "cities": [ 
     "Bulawayo",
     "Chinhoyi",
     "Greendale",
@@ -84142,5 +84597,5 @@
     "Mufakose",
     "Mutare",
     "Victoria Falls"
-  ]
-}
+  ] }
+]

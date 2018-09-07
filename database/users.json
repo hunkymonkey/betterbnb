@@ -1,801 +1,601 @@
 [
   {
-    "name": {
-      "first": "Estes",
-      "last": "Brady"
-    },
+    "firstname": "Estes",
+    "lastname": "Brady",
     "email": "estes.brady@gmail.us",
     "password": "quis"
   },
   {
-    "name": {
-      "first": "Sondra",
-      "last": "Wells"
-    },
+    "firstname": "Sondra",
+    "lastname": "Wells",
     "email": "sondra.wells@gmail.name",
     "password": "qui"
   },
   {
-    "name": {
-      "first": "Harmon",
-      "last": "Durham"
-    },
+    "firstname": "Harmon",
+    "lastname": "Durham",
     "email": "harmon.durham@gmail.ca",
     "password": "ut"
   },
   {
-    "name": {
-      "first": "Cristina",
-      "last": "Burke"
-    },
+    "firstname": "Cristina",
+    "lastname": "Burke",
     "email": "cristina.burke@gmail.com",
     "password": "ex"
   },
   {
-    "name": {
-      "first": "Lott",
-      "last": "Solomon"
-    },
+    "firstname": "Lott",
+    "lastname": "Solomon",
     "email": "lott.solomon@gmail.net",
     "password": "labore"
   },
   {
-    "name": {
-      "first": "Byers",
-      "last": "Slater"
-    },
+    "firstname": "Byers",
+    "lastname": "Slater",
     "email": "byers.slater@gmail.biz",
     "password": "pariatur"
   },
   {
-    "name": {
-      "first": "Riggs",
-      "last": "Mullen"
-    },
+    "firstname": "Riggs",
+    "lastname": "Mullen",
     "email": "riggs.mullen@gmail.io",
     "password": "duis"
   },
   {
-    "name": {
-      "first": "Mcfarland",
-      "last": "Johnson"
-    },
+    "firstname": "Mcfarland",
+    "lastname": "Johnson",
     "email": "mcfarland.johnson@gmail.tv",
     "password": "esse"
   },
   {
-    "name": {
-      "first": "Huffman",
-      "last": "Mooney"
-    },
+    "firstname": "Huffman",
+    "lastname": "Mooney",
     "email": "huffman.mooney@gmail.me",
     "password": "est"
   },
   {
-    "name": {
-      "first": "Julia",
-      "last": "Burks"
-    },
+    "firstname": "Julia",
+    "lastname": "Burks",
     "email": "julia.burks@gmail.org",
     "password": "aliqua"
   },
   {
-    "name": {
-      "first": "Cole",
-      "last": "Norton"
-    },
+    "firstname": "Cole",
+    "lastname": "Norton",
     "email": "cole.norton@gmail.info",
     "password": "incididunt"
   },
   {
-    "name": {
-      "first": "Carolyn",
-      "last": "Downs"
-    },
+    "firstname": "Carolyn",
+    "lastname": "Downs",
     "email": "carolyn.downs@gmail.biz",
     "password": "fugiat"
   },
   {
-    "name": {
-      "first": "Pierce",
-      "last": "Flynn"
-    },
+    "firstname": "Pierce",
+    "lastname": "Flynn",
     "email": "pierce.flynn@gmail.us",
     "password": "commodo"
   },
   {
-    "name": {
-      "first": "Chapman",
-      "last": "Freeman"
-    },
+    "firstname": "Chapman",
+    "lastname": "Freeman",
     "email": "chapman.freeman@gmail.name",
     "password": "tempor"
   },
   {
-    "name": {
-      "first": "Nona",
-      "last": "Hopper"
-    },
+    "firstname": "Nona",
+    "lastname": "Hopper",
     "email": "nona.hopper@gmail.ca",
     "password": "fugiat"
   },
   {
-    "name": {
-      "first": "Bailey",
-      "last": "Chambers"
-    },
+    "firstname": "Bailey",
+    "lastname": "Chambers",
     "email": "bailey.chambers@gmail.com",
     "password": "dolore"
   },
   {
-    "name": {
-      "first": "Hannah",
-      "last": "Goodman"
-    },
+    "firstname": "Hannah",
+    "lastname": "Goodman",
     "email": "hannah.goodman@gmail.net",
     "password": "veniam"
   },
   {
-    "name": {
-      "first": "Ophelia",
-      "last": "Vargas"
-    },
+    "firstname": "Ophelia",
+    "lastname": "Vargas",
     "email": "ophelia.vargas@gmail.biz",
     "password": "commodo"
   },
   {
-    "name": {
-      "first": "Eva",
-      "last": "Kinney"
-    },
+    "firstname": "Eva",
+    "lastname": "Kinney",
     "email": "eva.kinney@gmail.io",
     "password": "Lorem"
   },
   {
-    "name": {
-      "first": "Wiley",
-      "last": "Preston"
-    },
+    "firstname": "Wiley",
+    "lastname": "Preston",
     "email": "wiley.preston@gmail.tv",
     "password": "commodo"
   },
   {
-    "name": {
-      "first": "Murphy",
-      "last": "Barnes"
-    },
+    "firstname": "Murphy",
+    "lastname": "Barnes",
     "email": "murphy.barnes@gmail.me",
     "password": "dolor"
   },
   {
-    "name": {
-      "first": "Harper",
-      "last": "Rosario"
-    },
+    "firstname": "Harper",
+    "lastname": "Rosario",
     "email": "harper.rosario@gmail.org",
     "password": "exercitation"
   },
   {
-    "name": {
-      "first": "Benita",
-      "last": "Castaneda"
-    },
+    "firstname": "Benita",
+    "lastname": "Castaneda",
     "email": "benita.castaneda@gmail.info",
     "password": "incididunt"
   },
   {
-    "name": {
-      "first": "Lessie",
-      "last": "Vinson"
-    },
+    "firstname": "Lessie",
+    "lastname": "Vinson",
     "email": "lessie.vinson@gmail.biz",
     "password": "elit"
   },
   {
-    "name": {
-      "first": "Robertson",
-      "last": "Frost"
-    },
+    "firstname": "Robertson",
+    "lastname": "Frost",
     "email": "robertson.frost@gmail.us",
     "password": "in"
   },
   {
-    "name": {
-      "first": "Ruth",
-      "last": "Cain"
-    },
+    "firstname": "Ruth",
+    "lastname": "Cain",
     "email": "ruth.cain@gmail.name",
     "password": "fugiat"
   },
   {
-    "name": {
-      "first": "Moses",
-      "last": "Garrett"
-    },
+    "firstname": "Moses",
+    "lastname": "Garrett",
     "email": "moses.garrett@gmail.ca",
     "password": "consectetur"
   },
   {
-    "name": {
-      "first": "Hampton",
-      "last": "Wiley"
-    },
+    "firstname": "Hampton",
+    "lastname": "Wiley",
     "email": "hampton.wiley@gmail.com",
     "password": "dolor"
   },
   {
-    "name": {
-      "first": "Dotson",
-      "last": "Head"
-    },
+    "firstname": "Dotson",
+    "lastname": "Head",
     "email": "dotson.head@gmail.net",
     "password": "quis"
   },
   {
-    "name": {
-      "first": "Erickson",
-      "last": "Osborne"
-    },
+    "firstname": "Erickson",
+    "lastname": "Osborne",
     "email": "erickson.osborne@gmail.biz",
     "password": "velit"
   },
   {
-    "name": {
-      "first": "Cherry",
-      "last": "Andrews"
-    },
+    "firstname": "Cherry",
+    "lastname": "Andrews",
     "email": "cherry.andrews@gmail.io",
     "password": "in"
   },
   {
-    "name": {
-      "first": "Hebert",
-      "last": "Miranda"
-    },
+    "firstname": "Hebert",
+    "lastname": "Miranda",
     "email": "hebert.miranda@gmail.tv",
     "password": "pariatur"
   },
   {
-    "name": {
-      "first": "Holly",
-      "last": "Lowery"
-    },
+    "firstname": "Holly",
+    "lastname": "Lowery",
     "email": "holly.lowery@gmail.me",
     "password": "mollit"
   },
   {
-    "name": {
-      "first": "Rodgers",
-      "last": "Gill"
-    },
+    "firstname": "Rodgers",
+    "lastname": "Gill",
     "email": "rodgers.gill@gmail.org",
     "password": "enim"
   },
   {
-    "name": {
-      "first": "Michael",
-      "last": "Harvey"
-    },
+    "firstname": "Michael",
+    "lastname": "Harvey",
     "email": "michael.harvey@gmail.info",
     "password": "labore"
   },
   {
-    "name": {
-      "first": "Fanny",
-      "last": "Ramsey"
-    },
+    "firstname": "Fanny",
+    "lastname": "Ramsey",
     "email": "fanny.ramsey@gmail.biz",
     "password": "nulla"
   },
   {
-    "name": {
-      "first": "Maggie",
-      "last": "Barr"
-    },
+    "firstname": "Maggie",
+    "lastname": "Barr",
     "email": "maggie.barr@gmail.us",
     "password": "qui"
   },
   {
-    "name": {
-      "first": "Shannon",
-      "last": "Brennan"
-    },
+    "firstname": "Shannon",
+    "lastname": "Brennan",
     "email": "shannon.brennan@gmail.name",
     "password": "irure"
   },
   {
-    "name": {
-      "first": "Marietta",
-      "last": "Cash"
-    },
+    "firstname": "Marietta",
+    "lastname": "Cash",
     "email": "marietta.cash@gmail.ca",
     "password": "amet"
   },
   {
-    "name": {
-      "first": "Marguerite",
-      "last": "Price"
-    },
+    "firstname": "Marguerite",
+    "lastname": "Price",
     "email": "marguerite.price@gmail.com",
     "password": "culpa"
   },
   {
-    "name": {
-      "first": "Singleton",
-      "last": "Russo"
-    },
+    "firstname": "Singleton",
+    "lastname": "Russo",
     "email": "singleton.russo@gmail.net",
     "password": "deserunt"
   },
   {
-    "name": {
-      "first": "Tracy",
-      "last": "Singleton"
-    },
+    "firstname": "Tracy",
+    "lastname": "Singleton",
     "email": "tracy.singleton@gmail.biz",
     "password": "dolor"
   },
   {
-    "name": {
-      "first": "Meghan",
-      "last": "Parker"
-    },
+    "firstname": "Meghan",
+    "lastname": "Parker",
     "email": "meghan.parker@gmail.io",
     "password": "incididunt"
   },
   {
-    "name": {
-      "first": "Fitzpatrick",
-      "last": "Dennis"
-    },
+    "firstname": "Fitzpatrick",
+    "lastname": "Dennis",
     "email": "fitzpatrick.dennis@gmail.tv",
     "password": "aute"
   },
   {
-    "name": {
-      "first": "Haney",
-      "last": "Velez"
-    },
+    "firstname": "Haney",
+    "lastname": "Velez",
     "email": "haney.velez@gmail.me",
     "password": "in"
   },
   {
-    "name": {
-      "first": "Bell",
-      "last": "Hopkins"
-    },
+    "firstname": "Bell",
+    "lastname": "Hopkins",
     "email": "bell.hopkins@gmail.org",
     "password": "veniam"
   },
   {
-    "name": {
-      "first": "Frankie",
-      "last": "Mcgee"
-    },
+    "firstname": "Frankie",
+    "lastname": "Mcgee",
     "email": "frankie.mcgee@gmail.info",
     "password": "ut"
   },
   {
-    "name": {
-      "first": "Trina",
-      "last": "Acevedo"
-    },
+    "firstname": "Trina",
+    "lastname": "Acevedo",
     "email": "trina.acevedo@gmail.biz",
     "password": "dolor"
   },
   {
-    "name": {
-      "first": "Debora",
-      "last": "Cummings"
-    },
+    "firstname": "Debora",
+    "lastname": "Cummings",
     "email": "debora.cummings@gmail.us",
     "password": "eiusmod"
   },
   {
-    "name": {
-      "first": "Dee",
-      "last": "Larson"
-    },
+    "firstname": "Dee",
+    "lastname": "Larson",
     "email": "dee.larson@gmail.name",
     "password": "cupidatat"
   },
   {
-    "name": {
-      "first": "Patrick",
-      "last": "Michael"
-    },
+    "firstname": "Patrick",
+    "lastname": "Michael",
     "email": "patrick.michael@gmail.ca",
     "password": "aliquip"
   },
   {
-    "name": {
-      "first": "Patti",
-      "last": "Franks"
-    },
+    "firstname": "Patti",
+    "lastname": "Franks",
     "email": "patti.franks@gmail.com",
     "password": "aliquip"
   },
   {
-    "name": {
-      "first": "Head",
-      "last": "Glass"
-    },
+    "firstname": "Head",
+    "lastname": "Glass",
     "email": "head.glass@gmail.net",
     "password": "proident"
   },
   {
-    "name": {
-      "first": "Byrd",
-      "last": "David"
-    },
+    "firstname": "Byrd",
+    "lastname": "David",
     "email": "byrd.david@gmail.biz",
     "password": "ut"
   },
   {
-    "name": {
-      "first": "Ollie",
-      "last": "Harrington"
-    },
+    "firstname": "Ollie",
+    "lastname": "Harrington",
     "email": "ollie.harrington@gmail.io",
     "password": "aute"
   },
   {
-    "name": {
-      "first": "Lang",
-      "last": "Duran"
-    },
+    "firstname": "Lang",
+    "lastname": "Duran",
     "email": "lang.duran@gmail.tv",
     "password": "duis"
   },
   {
-    "name": {
-      "first": "Mccullough",
-      "last": "Douglas"
-    },
+    "firstname": "Mccullough",
+    "lastname": "Douglas",
     "email": "mccullough.douglas@gmail.me",
     "password": "nisi"
   },
   {
-    "name": {
-      "first": "Miriam",
-      "last": "Gaines"
-    },
+    "firstname": "Miriam",
+    "lastname": "Gaines",
     "email": "miriam.gaines@gmail.org",
     "password": "velit"
   },
   {
-    "name": {
-      "first": "Hollie",
-      "last": "Hines"
-    },
+    "firstname": "Hollie",
+    "lastname": "Hines",
     "email": "hollie.hines@gmail.info",
     "password": "consectetur"
   },
   {
-    "name": {
-      "first": "Lucille",
-      "last": "Albert"
-    },
+    "firstname": "Lucille",
+    "lastname": "Albert",
     "email": "lucille.albert@gmail.biz",
     "password": "nisi"
   },
   {
-    "name": {
-      "first": "Annmarie",
-      "last": "Perkins"
-    },
+    "firstname": "Annmarie",
+    "lastname": "Perkins",
     "email": "annmarie.perkins@gmail.us",
     "password": "sunt"
   },
   {
-    "name": {
-      "first": "Melody",
-      "last": "Rodriquez"
-    },
+    "firstname": "Melody",
+    "lastname": "Rodriquez",
     "email": "melody.rodriquez@gmail.name",
     "password": "consectetur"
   },
   {
-    "name": {
-      "first": "Cynthia",
-      "last": "Golden"
-    },
+    "firstname": "Cynthia",
+    "lastname": "Golden",
     "email": "cynthia.golden@gmail.ca",
     "password": "commodo"
   },
   {
-    "name": {
-      "first": "Allison",
-      "last": "Joseph"
-    },
+    "firstname": "Allison",
+    "lastname": "Joseph",
     "email": "allison.joseph@gmail.com",
     "password": "excepteur"
   },
   {
-    "name": {
-      "first": "Burnett",
-      "last": "Perez"
-    },
+    "firstname": "Burnett",
+    "lastname": "Perez",
     "email": "burnett.perez@gmail.net",
     "password": "non"
   },
   {
-    "name": {
-      "first": "Park",
-      "last": "Richmond"
-    },
+    "firstname": "Park",
+    "lastname": "Richmond",
     "email": "park.richmond@gmail.biz",
     "password": "sunt"
   },
   {
-    "name": {
-      "first": "Simone",
-      "last": "Sargent"
-    },
+    "firstname": "Simone",
+    "lastname": "Sargent",
     "email": "simone.sargent@gmail.io",
     "password": "dolore"
   },
   {
-    "name": {
-      "first": "Socorro",
-      "last": "Bauer"
-    },
+    "firstname": "Socorro",
+    "lastname": "Bauer",
     "email": "socorro.bauer@gmail.tv",
     "password": "occaecat"
   },
   {
-    "name": {
-      "first": "Knight",
-      "last": "Sykes"
-    },
+    "firstname": "Knight",
+    "lastname": "Sykes",
     "email": "knight.sykes@gmail.me",
     "password": "sunt"
   },
   {
-    "name": {
-      "first": "Clarke",
-      "last": "Pratt"
-    },
+    "firstname": "Clarke",
+    "lastname": "Pratt",
     "email": "clarke.pratt@gmail.org",
     "password": "eu"
   },
   {
-    "name": {
-      "first": "Alfreda",
-      "last": "Hess"
-    },
+    "firstname": "Alfreda",
+    "lastname": "Hess",
     "email": "alfreda.hess@gmail.info",
     "password": "minim"
   },
   {
-    "name": {
-      "first": "Mabel",
-      "last": "Aguilar"
-    },
+    "firstname": "Mabel",
+    "lastname": "Aguilar",
     "email": "mabel.aguilar@gmail.biz",
     "password": "voluptate"
   },
   {
-    "name": {
-      "first": "Laverne",
-      "last": "Mclean"
-    },
+    "firstname": "Laverne",
+    "lastname": "Mclean",
     "email": "laverne.mclean@gmail.us",
     "password": "irure"
   },
   {
-    "name": {
-      "first": "Lilian",
-      "last": "Maddox"
-    },
+    "firstname": "Lilian",
+    "lastname": "Maddox",
     "email": "lilian.maddox@gmail.name",
     "password": "voluptate"
   },
   {
-    "name": {
-      "first": "Herman",
-      "last": "Cortez"
-    },
+    "firstname": "Herman",
+    "lastname": "Cortez",
     "email": "herman.cortez@gmail.ca",
     "password": "consectetur"
   },
   {
-    "name": {
-      "first": "May",
-      "last": "Bolton"
-    },
+    "firstname": "May",
+    "lastname": "Bolton",
     "email": "may.bolton@gmail.com",
     "password": "dolor"
   },
   {
-    "name": {
-      "first": "Jessie",
-      "last": "Mckenzie"
-    },
+    "firstname": "Jessie",
+    "lastname": "Mckenzie",
     "email": "jessie.mckenzie@gmail.net",
     "password": "id"
   },
   {
-    "name": {
-      "first": "Naomi",
-      "last": "Hodges"
-    },
+    "firstname": "Naomi",
+    "lastname": "Hodges",
     "email": "naomi.hodges@gmail.biz",
     "password": "cupidatat"
   },
   {
-    "name": {
-      "first": "Bowman",
-      "last": "Avery"
-    },
+    "firstname": "Bowman",
+    "lastname": "Avery",
     "email": "bowman.avery@gmail.io",
     "password": "ad"
   },
   {
-    "name": {
-      "first": "Britney",
-      "last": "Wright"
-    },
+    "firstname": "Britney",
+    "lastname": "Wright",
     "email": "britney.wright@gmail.tv",
     "password": "sint"
   },
   {
-    "name": {
-      "first": "Cortez",
-      "last": "Collins"
-    },
+    "firstname": "Cortez",
+    "lastname": "Collins",
     "email": "cortez.collins@gmail.me",
     "password": "labore"
   },
   {
-    "name": {
-      "first": "Pollard",
-      "last": "Cooper"
-    },
+    "firstname": "Pollard",
+    "lastname": "Cooper",
     "email": "pollard.cooper@gmail.org",
     "password": "incididunt"
   },
   {
-    "name": {
-      "first": "Frost",
-      "last": "Schwartz"
-    },
+    "firstname": "Frost",
+    "lastname": "Schwartz",
     "email": "frost.schwartz@gmail.info",
     "password": "fugiat"
   },
   {
-    "name": {
-      "first": "Cummings",
-      "last": "Byrd"
-    },
+    "firstname": "Cummings",
+    "lastname": "Byrd",
     "email": "cummings.byrd@gmail.biz",
     "password": "adipisicing"
   },
   {
-    "name": {
-      "first": "Johnston",
-      "last": "Green"
-    },
+    "firstname": "Johnston",
+    "lastname": "Green",
     "email": "johnston.green@gmail.us",
     "password": "in"
   },
   {
-    "name": {
-      "first": "Pratt",
-      "last": "Farrell"
-    },
+    "firstname": "Pratt",
+    "lastname": "Farrell",
     "email": "pratt.farrell@gmail.name",
     "password": "in"
   },
   {
-    "name": {
-      "first": "Rosalie",
-      "last": "Wilson"
-    },
+    "firstname": "Rosalie",
+    "lastname": "Wilson",
     "email": "rosalie.wilson@gmail.ca",
     "password": "nulla"
   },
   {
-    "name": {
-      "first": "Judith",
-      "last": "Cooley"
-    },
+    "firstname": "Judith",
+    "lastname": "Cooley",
     "email": "judith.cooley@gmail.com",
     "password": "veniam"
   },
   {
-    "name": {
-      "first": "Koch",
-      "last": "Stephens"
-    },
+    "firstname": "Koch",
+    "lastname": "Stephens",
     "email": "koch.stephens@gmail.net",
     "password": "pariatur"
   },
   {
-    "name": {
-      "first": "Cantu",
-      "last": "Lawrence"
-    },
+    "firstname": "Cantu",
+    "lastname": "Lawrence",
     "email": "cantu.lawrence@gmail.biz",
     "password": "adipisicing"
   },
   {
-    "name": {
-      "first": "Roxie",
-      "last": "Hughes"
-    },
+    "firstname": "Roxie",
+    "lastname": "Hughes",
     "email": "roxie.hughes@gmail.io",
     "password": "mollit"
   },
   {
-    "name": {
-      "first": "Lynda",
-      "last": "Bush"
-    },
+    "firstname": "Lynda",
+    "lastname": "Bush",
     "email": "lynda.bush@gmail.tv",
     "password": "magna"
   },
   {
-    "name": {
-      "first": "Myra",
-      "last": "Ellis"
-    },
+    "firstname": "Myra",
+    "lastname": "Ellis",
     "email": "myra.ellis@gmail.me",
     "password": "enim"
   },
   {
-    "name": {
-      "first": "Welch",
-      "last": "Yates"
-    },
+    "firstname": "Welch",
+    "lastname": "Yates",
     "email": "welch.yates@gmail.org",
     "password": "aute"
   },
   {
-    "name": {
-      "first": "Bette",
-      "last": "Pollard"
-    },
+    "firstname": "Bette",
+    "lastname": "Pollard",
     "email": "bette.pollard@gmail.info",
     "password": "elit"
   },
   {
-    "name": {
-      "first": "Melissa",
-      "last": "Leonard"
-    },
+    "firstname": "Melissa",
+    "lastname": "Leonard",
     "email": "melissa.leonard@gmail.biz",
     "password": "irure"
   },
   {
-    "name": {
-      "first": "Elba",
-      "last": "Whitehead"
-    },
+    "firstname": "Elba",
+    "lastname": "Whitehead",
     "email": "elba.whitehead@gmail.us",
     "password": "Lorem"
   },
   {
-    "name": {
-      "first": "Marjorie",
-      "last": "Hardin"
-    },
+    "firstname": "Marjorie",
+    "lastname": "Hardin",
     "email": "marjorie.hardin@gmail.name",
     "password": "culpa"
   },
   {
-    "name": {
-      "first": "Berger",
-      "last": "Adams"
-    },
+    "firstname": "Berger",
+    "lastname": "Adams",
     "email": "berger.adams@gmail.ca",
     "password": "deserunt"
   },
   {
-    "name": {
-      "first": "Ball",
-      "last": "Johnston"
-    },
+    "firstname": "Ball",
+    "lastname": "Johnston",
     "email": "ball.johnston@gmail.com",
     "password": "sint"
   }
