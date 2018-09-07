@@ -11,7 +11,7 @@ app.use(parser.urlencoded({ extended: true }));
 
 app.use(`/betterbnb`, routes);
 
-app.use(express.static(__dirname, "../static"));
+app.use(express.static(path.resolve(__dirname, "../dist")));
 
 app.listen(PORT, () => {
   console.log("app is listening to port 1337");
