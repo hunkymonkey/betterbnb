@@ -17,6 +17,9 @@
   width: 18px;
   padding: 18px;
 }
+#searchDiv img:hover {
+  cursor: default;
+}
 #search {
   font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;

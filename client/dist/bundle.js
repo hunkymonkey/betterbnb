@@ -10103,6 +10103,10 @@ var _Search = __webpack_require__(86);
 
 var _Search2 = _interopRequireDefault(_Search);
 
+var _Navigation = __webpack_require__(195);
+
+var _Navigation2 = _interopRequireDefault(_Navigation);
+
 var _Header = __webpack_require__(190);
 
 var _Header2 = _interopRequireDefault(_Header);
@@ -10131,7 +10135,8 @@ var Header = function (_Component) {
         'div',
         { id: _Header2.default.header },
         _react2.default.createElement('img', { id: _Header2.default.logo, src: 'http://www.logoeps.net/wp-content/uploads/2016/12/airbnb_logo.png' }),
-        _react2.default.createElement(_Search2.default, null)
+        _react2.default.createElement(_Search2.default, null),
+        _react2.default.createElement(_Navigation2.default, null)
       );
     }
   }]);
@@ -10186,17 +10191,30 @@ var Search = function (_Component) {
   function Search(props) {
     _classCallCheck(this, Search);
 
-    return _possibleConstructorReturn(this, (Search.__proto__ || Object.getPrototypeOf(Search)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Search.__proto__ || Object.getPrototypeOf(Search)).call(this, props));
+
+    _this.state = {
+      term: ''
+    };
+    _this.handleSearch = _this.handleSearch.bind(_this);
+    return _this;
   }
 
   _createClass(Search, [{
+    key: 'handleSearch',
+    value: function handleSearch(e) {
+      this.setState({
+        term: e.target.value
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
         { id: _Search2.default.searchDiv },
         _react2.default.createElement('img', { src: 'https://image.ibb.co/jKaxPp/minimal_magnifying_glass.png', alt: 'minimal_magnifying_glass', border: '0' }),
-        _react2.default.createElement('input', { id: _Search2.default.search, placeholder: 'Search' })
+        _react2.default.createElement('input', { id: _Search2.default.search, placeholder: 'Search', value: this.state.term, onChange: this.handleSearch })
       );
     }
   }]);
@@ -11207,7 +11225,7 @@ exports = module.exports = __webpack_require__(50)(false);
 
 
 // module
-exports.push([module.i, "#Header__header___1gJFC {\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid lightgray;\n  height: 80px;\n}\n#Header__logo___VngWu {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  padding: 24px;\n}", ""]);
+exports.push([module.i, "#Header__header___1gJFC {\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid lightgray;\n  height: 80px;\n}\n#Header__logo___VngWu {\n  display: inline-block;\n  width: 34px;\n  height: 34px;\n  padding: 24px;\n}\n#Header__logo___VngWu:hover {\n  cursor: pointer;\n}", ""]);
 
 // exports
 exports.locals = {
@@ -11224,7 +11242,7 @@ exports = module.exports = __webpack_require__(50)(false);
 
 
 // module
-exports.push([module.i, "#Search__searchDiv___1CiSc {\n  display: flex;\n  align-items: center;\n  background-color: rgb(255, 255, 255);\n  border-radius: 4px;\n  border: solid 1px rgb(235, 235, 235);\n  box-sizing: border-box;\n  cursor: text;\n  text-overflow: ellipsis;\n  box-shadow: 2px 2px 1px rgb(218, 218, 218);\n  transition: box-shadow 0.3s;\n}\n#Search__searchDiv___1CiSc:hover {\n  box-shadow: 3px 3px 1.5px rgb(192, 192, 192);\n}\n#Search__searchDiv___1CiSc img {\n  width: 18px;\n  padding: 18px;\n}\n#Search__search___2kb5O {\n  font-family: Circular, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 17px;\n  font-stretch: 100%;\n  font-weight: 500;\n  color: rgb(72, 72, 72);\n  border: 0;\n  height: 48px;\n  width: 404px;\n}\n#Search__search___2kb5O:focus {\n  outline-width: 0;\n}", ""]);
+exports.push([module.i, "#Search__searchDiv___1CiSc {\n  display: flex;\n  align-items: center;\n  background-color: rgb(255, 255, 255);\n  border-radius: 4px;\n  border: solid 1px rgb(235, 235, 235);\n  box-sizing: border-box;\n  cursor: text;\n  text-overflow: ellipsis;\n  box-shadow: 2px 2px 1px rgb(218, 218, 218);\n  transition: box-shadow 0.3s;\n}\n#Search__searchDiv___1CiSc:hover {\n  box-shadow: 3px 3px 1.5px rgb(192, 192, 192);\n}\n#Search__searchDiv___1CiSc img {\n  width: 18px;\n  padding: 18px;\n}\n#Search__searchDiv___1CiSc img:hover {\n  cursor: default;\n}\n#Search__search___2kb5O {\n  font-family: Circular, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 17px;\n  font-stretch: 100%;\n  font-weight: 500;\n  color: rgb(72, 72, 72);\n  border: 0;\n  height: 48px;\n  width: 404px;\n}\n#Search__search___2kb5O:focus {\n  outline-width: 0;\n}", ""]);
 
 // exports
 exports.locals = {
@@ -23110,6 +23128,132 @@ exports.push([module.i, "* {\n  margin: 0;\n}", ""]);
 
 // exports
 
+
+/***/ }),
+/* 195 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(32);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Navigation = __webpack_require__(197);
+
+var _Navigation2 = _interopRequireDefault(_Navigation);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Navigation = function Navigation(props) {
+  return _react2.default.createElement(
+    'div',
+    { id: _Navigation2.default.navListDiv },
+    _react2.default.createElement(
+      'ul',
+      { id: _Navigation2.default.navList },
+      _react2.default.createElement(
+        'li',
+        null,
+        'Become a host'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Earn credit'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Help'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Sign Up'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Log in'
+      )
+    )
+  );
+};
+
+exports.default = Navigation;
+
+/***/ }),
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(50)(false);
+// imports
+
+
+// module
+exports.push([module.i, "#Navigation__navListDiv___3_Wgo {\n  display: inline-block;\n  margin-left: 13%;\n}\n#Navigation__navList___2w-jC {\n  list-style-type: none;\n  font-family: Circular, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  font-weight: 450;\n  color: rgb(72, 72, 72);\n}\n#Navigation__navList___2w-jC li {\n  display: inline-block;\n  margin-right: 35px;\n}\n#Navigation__navList___2w-jC li:hover {\n  cursor: pointer;\n  padding-bottom: 30px;\n  padding-top: 33px;\n  border-bottom: 3px solid rgb(72, 72, 72);\n}", ""]);
+
+// exports
+exports.locals = {
+	"navListDiv": "Navigation__navListDiv___3_Wgo",
+	"navList": "Navigation__navList___2w-jC"
+};
+
+/***/ }),
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(196);
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(83)(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {
+	module.hot.accept("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./Navigation.css", function() {
+		var newContent = require("!!../../../node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!./Navigation.css");
+
+		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
 
 /***/ })
 /******/ ]);

@@ -15,14 +15,12 @@ let loadUserDb = (userData) => {
 
 let loadLocationDb = (locationData) => {
   Location.insertMany(locationData, (err, data) => {
-    Location.insertMany(locationData, (err, data) => {
-      if (err) {
-        console.log('error loading locations into db');
-        throw new Error(err);
-      } else {
-        console.log('successfully loaded locations into db');
-      }
-    })
+    if (err) {
+      console.log('error loading locations into db');
+      throw new Error(err);
+    } else {
+      console.log('successfully loaded locations into db');
+    }
   });
 }
 
