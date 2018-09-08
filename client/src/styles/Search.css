@@ -1,0 +1,25 @@
+#searchDiv {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: solid 1px rgb(235, 235, 235);
+  box-sizing: border-box;
+  cursor: text;
+  text-overflow: ellipsis;
+  box-shadow: 2px 2px 1px grey;
+}
+#searchDiv img {
+  width: 18px;
+  padding: 18px;
+}
+#search {
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-stretch: 100%;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+  border: 0;
+  height: 48px;
+  width: 404px;
+}

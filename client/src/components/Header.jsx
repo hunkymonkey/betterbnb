@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Search from './Search.jsx';
+import styles from '../styles/Header.css';
 
 class Header extends Component {
   constructor(props) {
@@ -7,8 +9,9 @@ class Header extends Component {
 
   render() {
     return (
-      <div>
-        <h1>header</h1>
+      <div id={styles.header}>
+        <img id={styles.logo} src="http://www.logoeps.net/wp-content/uploads/2016/12/airbnb_logo.png" />
+        <Search />
       </div>
     );
   }
