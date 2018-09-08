@@ -7,7 +7,11 @@
   box-sizing: border-box;
   cursor: text;
   text-overflow: ellipsis;
-  box-shadow: 2px 2px 1px grey;
+  box-shadow: 2px 2px 1px rgb(218, 218, 218);
+  transition: box-shadow 0.3s;
+}
+#searchDiv:hover {
+  box-shadow: 3px 3px 1.5px rgb(192, 192, 192);
 }
 #searchDiv img {
   width: 18px;
@@ -22,4 +26,7 @@
   border: 0;
   height: 48px;
   width: 404px;
+}
+#search:focus {
+  outline-width: 0;
 }

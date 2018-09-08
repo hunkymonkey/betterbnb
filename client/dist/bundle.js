@@ -11224,7 +11224,7 @@ exports = module.exports = __webpack_require__(50)(false);
 
 
 // module
-exports.push([module.i, "#Search__searchDiv___1CiSc {\n  display: flex;\n  align-items: center;\n  background-color: rgb(255, 255, 255);\n  border-radius: 4px;\n  border: solid 1px rgb(235, 235, 235);\n  box-sizing: border-box;\n  cursor: text;\n  text-overflow: ellipsis;\n  box-shadow: 2px 2px 1px grey;\n}\n#Search__searchDiv___1CiSc img {\n  width: 18px;\n  padding: 18px;\n}\n#Search__search___2kb5O {\n  font-family: Circular, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 17px;\n  font-stretch: 100%;\n  font-weight: 500;\n  color: rgb(72, 72, 72);\n  border: 0;\n  height: 48px;\n  width: 404px;\n}", ""]);
+exports.push([module.i, "#Search__searchDiv___1CiSc {\n  display: flex;\n  align-items: center;\n  background-color: rgb(255, 255, 255);\n  border-radius: 4px;\n  border: solid 1px rgb(235, 235, 235);\n  box-sizing: border-box;\n  cursor: text;\n  text-overflow: ellipsis;\n  box-shadow: 2px 2px 1px rgb(218, 218, 218);\n  transition: box-shadow 0.3s;\n}\n#Search__searchDiv___1CiSc:hover {\n  box-shadow: 3px 3px 1.5px rgb(192, 192, 192);\n}\n#Search__searchDiv___1CiSc img {\n  width: 18px;\n  padding: 18px;\n}\n#Search__search___2kb5O {\n  font-family: Circular, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 17px;\n  font-stretch: 100%;\n  font-weight: 500;\n  color: rgb(72, 72, 72);\n  border: 0;\n  height: 48px;\n  width: 404px;\n}\n#Search__search___2kb5O:focus {\n  outline-width: 0;\n}", ""]);
 
 // exports
 exports.locals = {

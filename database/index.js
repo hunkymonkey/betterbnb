@@ -12,7 +12,7 @@ db.once('open', () => {
 
 let userSchema = new Schema({
   email: { type: String, unique: true, require: true },
-  password: { type: String, unique: true, require: true },
+  password: { type: String, require: true },
   firstname: String,
   lastname: String
 });
