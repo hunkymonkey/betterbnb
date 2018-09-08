@@ -13,13 +13,16 @@ db.once('open', () => {
 
 var commentsSchema = new mongoose.Schema({
   User: String,
+  Name: String,
+  ImageUrl: String,
   AccuracyRating: Number,
   CommunicationRating: Number,
   CleanlinessRating: Number,
   LocationRating: Number,
   CheckInRating: Number,
   ValueRating: Number,
-  Text: String
+  Text: String,
+  House: Number
 });
 
 var Comment = mongoose.model('Comment', commentsSchema);
