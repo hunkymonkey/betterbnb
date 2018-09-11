@@ -1,4 +1,5 @@
 var {Comment} = require('../database/models.js');
+var {House} = require('../database/models.js');
 
 const controller = {
 

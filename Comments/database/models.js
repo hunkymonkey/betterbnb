@@ -18,4 +18,18 @@ var commentsSchema = new mongoose.Schema({
 
 var Comment = mongoose.model('Comment', commentsSchema);
 
+var houseSchema = new mongoose.Schema({
+  Id: {type: Number, unique: true},
+  AccuracyRating: Number,
+  CommunicationRating: Number,
+  CleanlinessRating: Number,
+  LocationRating: Number,
+  CheckInRating: Number,
+  ValueRating: Number,
+  OverallRating: Number,
+});
+
+var House = mongoose.model('House', houseSchema);
+
 module.exports.Comment = Comment;
+module.exports.House = House;
