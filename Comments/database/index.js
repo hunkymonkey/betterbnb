@@ -15,6 +15,7 @@ var commentsSchema = new mongoose.Schema({
   User: String,
   Name: String,
   ImageUrl: String,
+  Date: { type: Date, default: Date.now },
   AccuracyRating: Number,
   CommunicationRating: Number,
   CleanlinessRating: Number,

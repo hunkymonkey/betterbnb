@@ -10,13 +10,13 @@ class App extends React.Component {
     this.state = {
       comments: [],
       searchVal: '',
-      overallRev: 5,
-      accuracyRev: 5,
-      communicationRev: 5,
-      cleanlinessRev: 5,
-      locationRev: 5,
-      checkinRev: 5,
-      valueRev: 5,
+      overallRev: null,
+      accuracyRev: null,
+      communicationRev: null,
+      cleanlinessRev: null,
+      locationRev: null,
+      checkinRev: null,
+      valueRev: null,
     }
     
     this.handleSearchChange = this.handleSearchChange.bind(this);
@@ -26,7 +26,10 @@ class App extends React.Component {
     this.setAccRev = this.setAccRev.bind(this);
     this.setCommRev = this.setCommRev.bind(this);
     this.setCheckinRev = this.setCheckinRev.bind(this);
-    this.setCl
+    this.setCleanRev = this.setCleanRev.bind(this);
+    this.setValueRev = this.setValueRev.bind(this);
+    this.setLocatRev = this.setLocatRev.bind(this);
+    this.setOverallRev = this.setOverallRev.bind(this);
   }
 
   componentDidMount() {
@@ -36,11 +39,11 @@ class App extends React.Component {
   setAccRev() {
     var sum = 0;
     this.state.comments.forEach((comment) => {
-      sum += comment.CommunicationRating
+      sum += comment.AccuracyRating
     })
     sum = sum / this.state.comments.length;
     this.setState({
-      communicationRev: sum,
+      accuracyRev: sum,
     })
   }
 
@@ -58,7 +61,7 @@ class App extends React.Component {
   setCheckinRev() {
     var sum = 0;
     this.state.comments.forEach((comment) => {
-      sum += comment.CheckinRating
+      sum += comment.CheckInRating
     })
     sum = sum / this.state.comments.length;
     this.setState({
@@ -99,14 +102,14 @@ class App extends React.Component {
     })
   }
 
-  setCheckinRev() {
+  setOverallRev() {
     var sum = 0;
     this.state.comments.forEach((comment) => {
-      sum += comment.CheckinRating
+      sum += comment.AccuracyRating + comment.CheckInRating + comment.CleanlinessRating + comment.CommunicationRating + comment.LocationRating + comment.ValueRating;
     })
-    sum = sum / this.state.comments.length;
+    sum = sum / this.state.comments.length / 6
     this.setState({
-      locationRev: sum,
+      overallRev: sum,
     })
   }
 
@@ -116,6 +119,13 @@ class App extends React.Component {
         this.setState({
           comments: response.data,
         })
+        this.setAccRev();
+        this.setCheckinRev();
+        this.setCleanRev();
+        this.setCommRev();
+        this.setLocatRev();
+        this.setValueRev();
+        this.setOverallRev();
         console.log(response);
       })
       .catch((error) => {
@@ -140,9 +150,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2 className = {styles.title}>664 Reviews {this.state.overallRev}</h2>
+        <h2 className = {styles.title}>{this.state.comments.length} Reviews {this.state.overallRev}</h2>
         <form onSubmit = {this.handleSubmit}>
-          <input type = 'text' value = {this.state.searchVal} onChange = {this.handleSearchChange} />
+          <img className = {styles.magGlass} src = 'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-magnifying-glass-search-icon-in-and-out-animation-loop-black_hovv31ukf_thumbnail-full04.png' />
+          <input className = {styles.searchBar} type = 'text' value = {this.state.searchVal} onChange = {this.handleSearchChange} />
         </form>
         <h3>
           Accuracy {this.state.accuracyRev}
@@ -153,7 +164,7 @@ class App extends React.Component {
           Value {this.state.valueRev}
         </h3>
         {this.state.comments.map((comment) => {
-          return <Review comment = {comment}/>
+          return <Review key = {comment._id} comment = {comment}/>
         })}
       </div>
     )
