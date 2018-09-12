@@ -86,6 +86,42 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./client/src/components/Amenities.jsx":
+/*!*********************************************!*\
+  !*** ./client/src/components/Amenities.jsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Amenities = function Amenities() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'Amenities'\n  );\n};\n\nexports.default = Amenities;\n\n//# sourceURL=webpack:///./client/src/components/Amenities.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/Arrangement.jsx":
+/*!***********************************************!*\
+  !*** ./client/src/components/Arrangement.jsx ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Arrangement = function Arrangement() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'Arrangement'\n  );\n};\n\nexports.default = Arrangement;\n\n//# sourceURL=webpack:///./client/src/components/Arrangement.jsx?");
+
+/***/ }),
+
+/***/ "./client/src/components/Main.jsx":
+/*!****************************************!*\
+  !*** ./client/src/components/Main.jsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Main = function Main() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'Main'\n  );\n};\n\nexports.default = Main;\n\n//# sourceURL=webpack:///./client/src/components/Main.jsx?");
+
+/***/ }),
+
 /***/ "./client/src/index.jsx":
 /*!******************************!*\
   !*** ./client/src/index.jsx ***!
@@ -94,7 +130,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    'Hello'\n  );\n};\n\n_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./client/src/index.jsx?");
+eval("\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _Main = __webpack_require__(/*! ./components/Main.jsx */ \"./client/src/components/Main.jsx\");\n\nvar _Main2 = _interopRequireDefault(_Main);\n\nvar _Amenities = __webpack_require__(/*! ./components/Amenities.jsx */ \"./client/src/components/Amenities.jsx\");\n\nvar _Amenities2 = _interopRequireDefault(_Amenities);\n\nvar _Arrangement = __webpack_require__(/*! ./components/Arrangement.jsx */ \"./client/src/components/Arrangement.jsx\");\n\nvar _Arrangement2 = _interopRequireDefault(_Arrangement);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n  _inherits(App, _Component);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n  }\n\n  _createClass(App, [{\n    key: 'componentDidMount',\n    value: function componentDidMount() {}\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(_Main2.default, null),\n        _react2.default.createElement(_Amenities2.default, null),\n        _react2.default.createElement(_Arrangement2.default, null)\n      );\n    }\n  }]);\n\n  return App;\n}(_react.Component);\n\n;\n\n_reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./client/src/index.jsx?");
 
 /***/ }),
 

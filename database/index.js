@@ -1,4 +1,6 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
+const random = require("mongoose-simple-random");
+
 mongoose.connect('mongodb://localhost/bbnb_detail');
 
 const db = mongoose.connection;
@@ -23,6 +25,7 @@ let houseSchema = new mongoose.Schema({
   description: { type: String, require: true },
   amenities: [ String ]
 });
+houseSchema.plugin(random);
 
 let House = mongoose.model('House', houseSchema);
 
