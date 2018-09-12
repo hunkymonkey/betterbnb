@@ -1,29 +1,31 @@
 import React, { Component } from 'react';
+import LocationJSON from '../../../database/countries.json';
 import styles from '../styles/Search.css';
 
-class Search extends Component {
-  constructor(props) {
-    super(props);
+class Search extends React.Component {
+  constructor() {
+    super();
+
     this.state = {
       term: ''
     };
-    this.handleSearch = this.handleSearch.bind(this);
+    this.onChange = this.onChange.bind(this);
   }
 
-  handleSearch(e) {
+  onChange(e) {
     this.setState({
       term: e.target.value
     });
-  }
-
+  };
+  
   render() {
+
     return (
       <div id={styles.searchDiv}>
         <img src="https://image.ibb.co/jKaxPp/minimal_magnifying_glass.png" alt="minimal_magnifying_glass" border="0" />
-        <input id={styles.search} placeholder="Search" value={this.state.term} onChange={this.handleSearch} />
+        <input onChange={this.onChange} placeholder="Search" id={styles.search} />
       </div>
-    ); 
-    
+    );
   }
 }
 
