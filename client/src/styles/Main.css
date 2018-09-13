@@ -1,0 +1,63 @@
+#main{
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#houseType{
+  color: rgb(88, 76, 62);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+}
+#titleAndAvatarDiv{
+  display: flex;
+  flex-direction: row;
+}
+#titleDiv{
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+#titleDiv h5{
+  margin-bottom: 1px;
+}
+#titleDiv p, #infoDiv p{
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+#title{
+  margin-bottom: 5px;
+  color: rgb(72, 72, 72);
+}
+#avatarDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+#avatarDiv img{
+  border-radius: 50%;
+  cursor: pointer;
+}
+#avatarDiv p{
+  color: rgb(118, 118, 118);
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+#infoDiv{
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+#infoDiv p{
+  margin-right: 25px;
+}
+#infoDiv img{
+  margin-right: 5px;
+  position: relative;
+  bottom: -3px;
+}

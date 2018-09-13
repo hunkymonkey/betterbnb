@@ -57,7 +57,7 @@ class App extends Component {
     const { ownerName, ownerPic, houseType, title, city, guestNum, bedroomNum, bedNum, bathNum, bathType, description, amenities } = this.state;
     return (
       <div>
-        <Main houseType={houseType} title={title}/>
+        <Main houseType={houseType} title={title} city={city} ownerPic={ownerPic} ownerName={ownerName} guestNum={guestNum} bedroomNum={bedroomNum} bedNum={bedNum} bathNum={bathNum} description={description} />
         <Amenities />
         <Arrangement />
       </div>
