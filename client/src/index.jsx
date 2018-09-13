@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <div>
         <Main houseType={houseType} title={title} city={city} ownerPic={ownerPic} ownerName={ownerName} guestNum={guestNum} bedroomNum={bedroomNum} bedNum={bedNum} bathNum={bathNum} description={description} />
-        <Amenities />
+        <Amenities amenities={amenities} />
         <Arrangement />
       </div>
     );
