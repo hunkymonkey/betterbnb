@@ -21,7 +21,7 @@ const Main = (props) => {
         <p><img src="https://image.ibb.co/fwxeEp/Screen_Shot_2018_09_13_at_8_14_40_AM.png" alt="Screen_Shot_2018_09_13_at_8_14_40_AM" border="0" />{props.bedNum} bed</p>
         <p><img src="https://image.ibb.co/iGnPfU/Screen_Shot_2018_09_13_at_8_14_30_AM.png" alt="Screen_Shot_2018_09_13_at_8_14_30_AM" border="0" />{props.bathNum} bath</p>
       </div>
-      <div>
+      <div id={styles.descriptionDiv}>
         <p>{props.description}</p>
         <a href=''>Contact host</a>
       </div>

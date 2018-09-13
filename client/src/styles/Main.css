@@ -17,15 +17,17 @@
 #titleDiv{
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
+  margin-right: 100px;
 }
 #titleDiv h5{
   margin-bottom: 1px;
 }
-#titleDiv p, #infoDiv p{
+#titleDiv p, #infoDiv p, #descriptionDiv p{
   color: rgb(72, 72, 72);
   font-size: 16px;
   font-weight: 300;
+}
+#titleDiv p{
   cursor: pointer;
 }
 #title{
@@ -52,6 +54,7 @@
   display: flex;
   align-items: center;
   margin-top: 7px;
+  margin-bottom: 25px;
 }
 #infoDiv p{
   margin-right: 25px;
@@ -60,4 +63,18 @@
   margin-right: 5px;
   position: relative;
   bottom: -3px;
+}
+#descriptionDiv{
+  width: 44%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+#descriptionDiv p{
+  margin-bottom: 25px;
+}
+#descriptionDiv a{
+  text-decoration: none;
+  color: rgb(0, 132, 137);
+  font-size: 16px;
+  font-weight: 500;
 }
