@@ -3,8 +3,8 @@ import React from 'react';
 const Main = (props) => {
   return (
     <div>
-      <h1>main test</h1>
-      <h5>{props.ownerName}</h5>
+      <h5>{props.houseType}</h5>
+      <h2>{props.title}</h2>
     </div>
   );
 }
