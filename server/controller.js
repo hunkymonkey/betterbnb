@@ -1,10 +1,15 @@
-const db = require('../database/index.js');
+const { House } = require('../database/index.js');
 
 module.exports = {
   fetch: (req, res) => {
-    console.log('inside fetch in controller');
-  },
-  post: (req, res) => {
-    console.log('inside post inside controller');
+    House.findOneRandom( (err, result) => {
+      if (err) {
+        console.log('error fetching random house data');
+        res.sendStatus(500);
+      } else {
+        console.log('successfully getting one random data');
+        res.status(200).json(result);
+      }
+    });
   }
 };

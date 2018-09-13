@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Main = () => {
+const Main = (props) => {
   return (
-    <div>Main</div>
+    <div>
+      <h1>main test</h1>
+      <h5>{props.ownerName}</h5>
+    </div>
   );
 }
 
