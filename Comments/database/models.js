@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-var db = require('./index.js');
 
 var commentsSchema = new mongoose.Schema({
   User: String,

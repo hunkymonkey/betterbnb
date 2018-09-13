@@ -148,20 +148,24 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h2 className = {styles.title}>{this.state.comments.length} Reviews {this.state.overallRev}</h2>
-        <form onSubmit = {this.handleSubmit}>
-          <img className = {styles.magGlass} src = 'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-magnifying-glass-search-icon-in-and-out-animation-loop-black_hovv31ukf_thumbnail-full04.png' />
-          <input className = {styles.searchBar} type = 'text' value = {this.state.searchVal} onChange = {this.handleSearchChange} />
-        </form>
-        <h3>
-          Accuracy {this.state.accuracyRev}
-          Communication {this.state.communicationRev}
-          Cleanliness {this.state.cleanlinessRev}
-          Location {this.state.locationRev}
-          Check-in {this.state.checkinRev}
-          Value {this.state.valueRev}
-        </h3>
+      <div className = {styles.app}>
+        <div className = {styles.header}>
+          <h2 className = {styles.title}>{this.state.comments.length} Reviews {this.state.overallRev}</h2>
+          <form className = {styles.search} onSubmit = {this.handleSubmit}>
+            <img className = {styles.magGlass} src = 'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-magnifying-glass-search-icon-in-and-out-animation-loop-black_hovv31ukf_thumbnail-full04.png' />
+            <input className = {styles.searchBar} type = 'text' placeholder = 'Search reviews' value = {this.state.searchVal} onChange = {this.handleSearchChange} />
+          </form>
+        </div>
+        <div className = {styles.rightRatings}>
+          <div>Accuracy {this.state.accuracyRev}</div>
+          <div>Communication {this.state.communicationRev}</div>
+          <div>Cleanliness {this.state.cleanlinessRev}</div>
+        </div>
+        <div className = {styles.leftRatings}>
+          <div>Location {this.state.locationRev}</div>
+          <div>Check-in {this.state.checkinRev}</div>
+          <div>Value {this.state.valueRev}</div>
+        </div>
         {this.state.comments.map((comment) => {
           return <Review key = {comment._id} comment = {comment}/>
         })}

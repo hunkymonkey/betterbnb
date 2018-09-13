@@ -26,4 +26,4 @@ const controller = {
 
 };
 
-module.exports.Controller = controller;
+module.exports.controller = controller;

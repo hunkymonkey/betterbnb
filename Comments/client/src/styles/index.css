@@ -1,12 +1,27 @@
+.app {
+  width: 648px;
+  color: #484848;
+  line-height: 20.02px;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 73px;
+  border-bottom: 1px solid rgb(194, 194, 194) !important;
+}
+
 .title {
-  color: rgb(72, 72, 72) !important;
-  font-size: 24px !important;
-  font-weight: normal !important;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
-  line-height: 1.1 !important;
-  display: inline !important;
-  margin: 0px !important;
-  padding: 0px !important;
+  color: rgb(72, 72, 72);
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  line-height: 30px;
+  display: block;
+  padding-top: 20px;
+  float: left;
+  -webkit-margin-before:0em;
+  -webkit-margin-after:0em;
+  width: 66.66%
 }
 
 .style {
@@ -16,9 +31,33 @@
   fill: currentcolor;
 }
 
+.search {
+  float: left;
+  position: relative;
+  width: 33%;
+  margin-top: 22px;
+  border-bottom-color: rgb(235, 235, 235);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(235, 235, 235);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(235, 235, 235);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(235, 235, 235);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
 .magGlass {
-  height: .7em;
-  width: 1em;
+  padding-top: 10px;
+  height: .9em;
+  width: 1.7em;
 }
 
 .searchBar {
@@ -34,7 +73,8 @@
   border-style: initial !important;
   border-color: initial !important;
   border-image: initial !important;
-  padding: 7px !important;
+  padding-bottom: 8px;
+  outline: none;
 }
 
 .review {
@@ -55,4 +95,14 @@
 
 .reviewDate {
   font-size: 14px;
+}
+
+rightRatings {
+float: left;
+width: 50%;
+}
+
+leftRatings {
+  float: left;
+  width: 50%;
 }
