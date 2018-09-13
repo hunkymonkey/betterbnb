@@ -1,5 +1,5 @@
 .app {
-  width: 648px;
+  width: 52%;
   color: #484848;
   line-height: 20.02px;
   box-sizing: border-box;
@@ -19,8 +19,7 @@
   display: block;
   padding-top: 20px;
   float: left;
-  -webkit-margin-before:0em;
-  -webkit-margin-after:0em;
+  margin: 0;
   width: 66.66%
 }
 
@@ -97,12 +96,65 @@
   font-size: 14px;
 }
 
-rightRatings {
-float: left;
-width: 50%;
+.ratings {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  display: flex;
+  width: calc(100% + 16px);
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
-leftRatings {
-  float: left;
-  width: 50%;
+.rightRatings {
+  flex: 1 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.leftRatings {
+  flex: 1 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.rightRatings > div, .leftRatings > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentHeader {
+  display: flex;
+}
+
+.commentMeta {
+  flex: 1 0 auto;
+  margin-left: 16px;
+}
+
+.commentMeta p {
+  margin: 0;
+}
+
+.reviewName {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.reviewDate {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.commentImage {
+  flex: 0 0 48px;
+  width: 48px;
+}
+
+.commentImage img{
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  width: 100%;
+  box-sizing: border-box;
 }

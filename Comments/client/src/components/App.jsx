@@ -156,15 +156,17 @@ class App extends React.Component {
             <input className = {styles.searchBar} type = 'text' placeholder = 'Search reviews' value = {this.state.searchVal} onChange = {this.handleSearchChange} />
           </form>
         </div>
-        <div className = {styles.rightRatings}>
-          <div>Accuracy {this.state.accuracyRev}</div>
-          <div>Communication {this.state.communicationRev}</div>
-          <div>Cleanliness {this.state.cleanlinessRev}</div>
-        </div>
-        <div className = {styles.leftRatings}>
-          <div>Location {this.state.locationRev}</div>
-          <div>Check-in {this.state.checkinRev}</div>
-          <div>Value {this.state.valueRev}</div>
+        <div className = {styles.ratings}>
+          <div className = {styles.leftRatings}>
+            <div><div>Accuracy</div> <div>{this.state.accuracyRev}</div></div>
+            <div><div>Communication</div> <div>{this.state.communicationRev}</div></div>
+            <div><div>Cleanliness</div> <div>{this.state.cleanlinessRev}</div></div>
+          </div>
+          <div className = {styles.rightRatings}>
+            <div><div>Location</div> <div>{this.state.locationRev}</div></div>
+            <div><div>Check-in</div> <div>{this.state.checkinRev}</div></div>
+            <div><div>Value</div> <div>{this.state.valueRev}</div></div>
+          </div>
         </div>
         {this.state.comments.map((comment) => {
           return <Review key = {comment._id} comment = {comment}/>
