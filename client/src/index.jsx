@@ -59,7 +59,7 @@ class App extends Component {
       <div>
         <Main houseType={houseType} title={title} city={city} ownerPic={ownerPic} ownerName={ownerName} guestNum={guestNum} bedroomNum={bedroomNum} bedNum={bedNum} bathNum={bathNum} description={description} />
         <Amenities amenities={amenities} />
-        <Arrangement />
+        <Arrangement bedNum={bedNum} />
       </div>
     );
   }
