@@ -20,7 +20,7 @@
   padding-top: 20px;
   float: left;
   margin: 0;
-  width: 66.66%
+  width: 66%
 }
 
 .style {
@@ -53,6 +53,29 @@
   border-top-width: 1px;
 }
 
+.selectedSearch {
+  float: left;
+  position: relative;
+  width: 33%;
+  margin-top: 22px;
+  border-bottom-color: rgb(0, 132, 137);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(0, 132, 137);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(0, 132, 137);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(0, 132, 137);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
 .magGlass {
   padding-top: 10px;
   height: .9em;
@@ -60,18 +83,18 @@
 }
 
 .searchBar {
-  background-color: transparent !important;
-  display: inline !important;
-  font-size: 14px !important;
-  line-height: 18px !important;
-  letter-spacing: normal !important;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
-  color: rgb(72, 72, 72) !important;
-  font-weight: 600 !important;
-  border-width: 0px !important;
-  border-style: initial !important;
-  border-color: initial !important;
-  border-image: initial !important;
+  background-color: transparent;
+  display: inline;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  color: rgb(72, 72, 72);
+  font-weight: 600;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
   padding-bottom: 8px;
   outline: none;
 }
@@ -157,4 +180,8 @@
   border: 2px solid #ffffff;
   width: 100%;
   box-sizing: border-box;
+}
+
+.scroller {
+  margin-bottom: 32px;
 }

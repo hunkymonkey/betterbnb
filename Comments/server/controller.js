@@ -15,7 +15,8 @@ const controller = {
   },
   
   post: (req, res) => {
-    Comment.create(req.body, (err, docs) => {
+    console.log(req.body);
+    Comment.find({Text: {$regex: req.body.Text, $options: 'i'}}, (err, docs) => {
       if (err) {
         res.status(404).send(err)
       } else {
