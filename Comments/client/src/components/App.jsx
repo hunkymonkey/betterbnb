@@ -3,6 +3,7 @@ import axios from 'axios'
 import { Review } from './Review.jsx';
 import { Scroller } from './Scroller.jsx';
 import styles from '../styles/index.css';
+import StarRatings from 'react-star-ratings';
 
 class App extends React.Component {
   constructor() {
@@ -212,7 +213,17 @@ class App extends React.Component {
     return (
       <div className = {styles.app}>
         <div className = {styles.header}>
-          <h2 className = {styles.title}>{this.state.comments.length} Reviews {this.state.overallRev}</h2>
+          <h2 className = {styles.title}>{this.state.comments.length} Reviews <nbsp/>
+            <StarRatings
+              rating={this.state.overallRev ? this.state.overallRev : 0}
+              starRatedColor="rgb(0, 132, 137)"
+              starEmptyColor='rgb(216, 216, 216)'
+              numberOfStars={5}
+              name='rating'
+              starDimension = '17px'
+              starSpacing = '2px'
+            /> 
+          </h2>
           <form className = {this.state.searchSelected ? styles.selectedSearch : styles.search} onSubmit = {this.handleSubmit}>
             <img className = {styles.magGlass} src = 'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-magnifying-glass-search-icon-in-and-out-animation-loop-black_hovv31ukf_thumbnail-full04.png' />
             <input className = {styles.searchBar} type = 'text' placeholder = 'Search reviews' value = {this.state.searchVal} onChange = {this.handleSearchChange} onFocus = {this.handleSearchSelector} onBlur = {this.handleSearchSelector}/>
@@ -220,14 +231,81 @@ class App extends React.Component {
         </div>
         <div className = {styles.ratings}>
           <div className = {styles.leftRatings}>
-            <div><div>Accuracy</div> <div>{this.state.accuracyRev}</div></div>
-            <div><div>Communication</div> <div>{this.state.communicationRev}</div></div>
-            <div><div>Cleanliness</div> <div>{this.state.cleanlinessRev}</div></div>
+            <div><div>Accuracy</div> <div>
+              <StarRatings
+                rating={this.state.accuracyRev ? this.state.accuracyRev : 0}
+                starRatedColor="rgb(0, 132, 137)"
+                starEmptyColor='rgb(216, 216, 216)'
+                numberOfStars={5}
+                name='rating'
+                starDimension = '15px'
+                starSpacing = '2px'
+              />
+            </div></div>
+            <div><div>Communication</div> 
+            <div>
+              <StarRatings
+                  rating={this.state.communicationRev ? this.state.communicationRev : 0}
+                  starRatedColor="rgb(0, 132, 137)"
+                  starEmptyColor='rgb(216, 216, 216)'
+                  numberOfStars={5}
+                  name='rating'
+                  starDimension = '15px'
+                  starSpacing = '2px'
+                />
+            </div>
+            </div>
+            <div><div>Cleanliness</div> 
+            <div>
+              <StarRatings
+                rating={this.state.cleanlinessRev ? this.state.cleanlinessRev : 0}
+                starRatedColor="rgb(0, 132, 137)"
+                starEmptyColor='rgb(216, 216, 216)'
+                numberOfStars={5}
+                name='rating'
+                starDimension = '15px'
+                starSpacing = '2px'
+              />
+            </div>
+            </div>
           </div>
           <div className = {styles.rightRatings}>
-            <div><div>Location</div> <div>{this.state.locationRev}</div></div>
-            <div><div>Check-in</div> <div>{this.state.checkinRev}</div></div>
-            <div><div>Value</div> <div>{this.state.valueRev}</div></div>
+            <div><div>Location</div> 
+            <div>
+              <StarRatings
+                  rating={this.state.locationRev ? this.state.locationRev : 0}
+                  starRatedColor="rgb(0, 132, 137)"
+                  starEmptyColor='rgb(216, 216, 216)'
+                  numberOfStars={5}
+                  name='rating'
+                  starDimension = '15px'
+                  starSpacing = '2px'
+                />
+              </div>
+              </div>
+            <div><div>Check-in</div> 
+              <div>
+                <StarRatings
+                  rating={this.state.checkinRev ? this.state.checkinRev : 0}
+                  starRatedColor="rgb(0, 132, 137)"
+                  starEmptyColor='rgb(216, 216, 216)'
+                  numberOfStars={5}
+                  name='rating'
+                  starDimension = '15px'
+                  starSpacing = '2px'
+                />
+              </div></div>
+            <div><div>Value</div> <div>
+              <StarRatings
+                rating={this.state.valueRev ? this.state.valueRev : 0}
+                starRatedColor="rgb(0, 132, 137)"
+                starEmptyColor='rgb(216, 216, 216)'
+                numberOfStars={5}
+                name='rating'
+                starDimension = '15px'
+                starSpacing = '2px'
+              />
+            </div></div>
           </div>
         </div>
         {this.state.displayedComments.map((comment) => {
