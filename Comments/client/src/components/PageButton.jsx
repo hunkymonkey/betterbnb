@@ -5,7 +5,7 @@ var PageButton = (props) => {
   return (
     <div className = {styles.PageButton}>
       <li className = {styles.PageButtonList}>
-        <button onClick = {() => props.setNewComments(props.page)}>{props.page}</button>
+        <button onClick = {() => props.setPage(props.page)}>{props.page}</button>
       </li>
     </div>
   )
