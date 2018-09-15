@@ -7,7 +7,8 @@
 
 .header {
   height: 73px;
-  border-bottom: 1px solid rgb(194, 194, 194) !important;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  display: flex;
 }
 
 .title {
@@ -18,9 +19,8 @@
   line-height: 30px;
   display: block;
   padding-top: 20px;
-  float: left;
+  flex: 1;
   margin: 0;
-  width: 66%
 }
 
 .style {
@@ -31,9 +31,8 @@
 }
 
 .search {
-  float: left;
+  flex: 1 end;
   position: relative;
-  width: 33%;
   margin-top: 22px;
   border-bottom-color: rgb(235, 235, 235);
   border-bottom-left-radius: 2px;
@@ -54,9 +53,8 @@
 }
 
 .selectedSearch {
-  float: left;
+  flex: 1 end;
   position: relative;
-  width: 33%;
   margin-top: 22px;
   border-bottom-color: rgb(0, 132, 137);
   border-bottom-left-radius: 2px;
@@ -183,5 +181,74 @@
 }
 
 .scroller {
+  margin-top: 20px;
   margin-bottom: 32px;
+  font-size: 14px;
+  width: 100%
+}
+
+.scrollerList {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scrollerList > li {
+  margin: 0 8px;
+}
+
+.scrollerList button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  color: #008489;
+  text-decoration: none;
+  outline: none;
+}
+
+.scrollerList button > div {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.scrollerList > li:first-of-type{
+  margin-left: 0;
+}
+
+.scrollerList > li:last-of-type{
+  margin-right: 0;
+}
+
+.lastButton button > div {
+  border: 1px solid #008489;
+  position: relative;
+}
+
+.nextButton button > div {
+  border: 1px solid #008489;
+  position: relative;
+}
+
+.currentPage div{
+  background-color: #008489;
+  color: #FFF;
+}
+
+.scrollerList svg {
+  height: 1em;
+  width: 1em;
+  display: block;
+  fill: currentColor;
+}
+
+.buttonInterior {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -3,11 +3,9 @@ import styles from '../styles/index.css';
 
 var PageButton = (props) => {
   return (
-    <div className = {styles.PageButton}>
-      <li className = {styles.PageButtonList}>
-        <button onClick = {() => props.setPage(props.page)}>{props.page}</button>
-      </li>
-    </div>
+    <li className = {props.page === props.currentPage ? styles.currentPage : styles.pageButton}>
+      <button onClick = {() => props.setPage(props.page)}><div>{props.page}</div></button>
+    </li>
   )
 }
 
