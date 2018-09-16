@@ -1,8 +1,12 @@
+const mongoose = require("mongoose");
+const {House} = require("../database/models.js");
 module.exports = {
-  fetch: () => {
-    console.log("in get");
+  fetch: (req, res) => {
+    House.find()
+      .sort({ houseId: 1 })
+      .then(data => res.status(200).send(data));
   },
-  post: () => {
+  post: (req, res) => {
     console.log(`in post`);
   }
 };

@@ -1,0 +1,75 @@
+.title {
+  color: brown;
+}
+
+#app-root {
+  height: 10em;
+  width: 10em;
+  background: lightblue;
+  overflow: hidden;
+}
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.845);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalImage {
+  height: 100%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.image {
+  border: 0;
+  object-fit: cover !important;
+  width: 100% !important;
+  height: 561.6px !important;
+}
+
+body {
+  margin: 0px;
+}
+
+.btn2 {
+  right: 100%;
+}
+
+.btn1 {
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 0px !important;
+  height: 100% !important;
+  z-index: 3 !important;
+  font-size: 0.5em !important;
+  width: 40px !important;
+  right: 0px !important;
+  background: none !important;  
+  border-width: 0px !important;
+  border-style: initial !important;
+  border-color: initial !important;
+  border-image: initial !important;
+}
+
+.btnStyle {
+  height: 4.8em;
+  width: 4.8em;
+  fill: rgb(255, 255, 255);
+}
