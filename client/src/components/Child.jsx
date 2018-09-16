@@ -11,11 +11,22 @@ class Child extends React.Component {
     super(props);
     this.state = {
       pictures: this.props.house.pictures,
-      display: []
+      display: 0
     };
   }
   componentDidMount() {
     console.log(this.state.pictures);
+  }
+
+  goToSlide(index) {
+    this.setState({ display: index });
+  }
+
+  goToLastSlide(e) {
+    e.preventDefault();
+    let index = this.state.display;
+    let { pictures } = this.state;
+    let picturesLength = pictures.length;
   }
   render() {
     return (
