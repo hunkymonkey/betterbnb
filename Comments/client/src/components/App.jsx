@@ -160,6 +160,7 @@ class App extends React.Component {
   fetch () {
     axios.get('/betterBnB/comments')
       .then((response) => {
+        console.log(response);
         this.setState({
           comments: response.data,
         })
@@ -187,7 +188,7 @@ class App extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     console.log(this.state.searchVal);
-    axios.post('/betterBnB/comments', {Text: this.state.searchVal})
+    axios.post('/betterBnB/comments', {Text: this.state.searchVal, House: this.state.comments[0].House})
       .then((response) => {
         this.setState({
           comments: response.data,

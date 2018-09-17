@@ -5,7 +5,8 @@ const controller = {
 
   get: (req, res) => {
     console.log('in get');
-    Comment.find({}, (err, docs) => {
+    var houseNum = Math.floor(Math.random() * 100) + 1 
+    Comment.find({House: houseNum}, (err, docs) => {
       if (err) {
         res.status(404).send(err);
       } else {
@@ -16,7 +17,7 @@ const controller = {
   
   post: (req, res) => {
     console.log(req.body);
-    Comment.find({Text: {$regex: req.body.Text, $options: 'i'}}, (err, docs) => {
+    Comment.find({Text: {$regex: req.body.Text, $options: 'i'}, House: req.body.House}, (err, docs) => {
       if (err) {
         res.status(404).send(err)
       } else {
