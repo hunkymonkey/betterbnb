@@ -4,11 +4,26 @@ import styles from "../styles/styles.css";
 class Slides extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      hidden: false
+    };
+    this.componentDidMount = this.componentDidMount.bind(this);
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ hidden: true }), 4000);
   }
 
   render() {
-    return (
-      // <div className={styles.indicatorContainer}>
+    return this.state.hidden ? (
+      <div
+        className={styles.indicatorContainer}
+        onMouseEnter={() => {
+          this.setState({ hidden: false });
+        }}
+      />
+    ) : (
+      <div className={styles.isAnimated}>
         <ul className={styles.carouselIndicators}>
           {this.props.pictures.map((slide, index) => (
             <li key={index}>
@@ -20,7 +35,7 @@ class Slides extends Component {
             </li>
           ))}
         </ul>
-      // </div>
+      </div>
     );
   }
 }
