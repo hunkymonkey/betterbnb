@@ -45,7 +45,6 @@ class Parent extends React.Component {
   render() {
     return (
       <div>
-        <p>JUST A FEW THING SIN THE BACKGROUND</p>
         {this.state.showModal ? (
           <Modal>
             <Child handleClick={this.handleExit} house={this.state.house} />

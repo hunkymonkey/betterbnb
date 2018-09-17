@@ -45,7 +45,12 @@
 }
 
 body {
-  margin: 0px;
+  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #484848;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
 .btn2 {
@@ -61,24 +66,55 @@ body {
   font-size: 0.5em !important;
   width: 40px !important;
   right: 0px !important;
-  background: none !important;  
+  background: none !important;
   border-width: 0px !important;
   border-style: initial !important;
   border-color: initial !important;
   border-image: initial !important;
 }
 
-.btnStyle {
+.btnStyle,
+.btnStyle:hover {
   height: 4.8em;
   width: 4.8em;
   fill: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
+.exitBar {
+  padding: 40px 15px 20px !important;
+  color: blue;
+}
+
+.exitBtn,
+.exitBtn:hover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 16px 28px 8px;
+  font-size: 2em;
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: #fff;
+  z-index: 5000;
+  cursor: pointer;
+}
+.slide {
+  width: 100px !important;
+  height: 67px !important;
+}
 /* carousel/////////////////////////////////////////////////////// */
 ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+li {
+  padding-left: 10px;
 }
 
 .carousel-container {
@@ -88,6 +124,20 @@ ul {
   min-height: 210px;
 }
 
-.carousel {
-  position: relative;
+.carouselIndicators {
+  display: flex;
+  position: absolute !important;
+  list-style-type: none !important;
+  left: 28% !important;
+  top: 87%;
+  transition: -ms-transform 0.3s ease-out 0s, -webkit-transform 0.3s ease-out 0s,
+    transform 0.3s ease-out 0s !important;
+  margin: 0px !important;
+  padding: 10px !important;
+}
+
+.indicatorContainer {
+  position: absolute !important;
+  width: 11110px !important;
+  display: block;
 }
