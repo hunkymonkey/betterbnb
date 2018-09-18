@@ -5,5 +5,5 @@ import Data from "../../Data.js";
 
 ReactDOM.render(
   <Parent />,
-  document.getElementById("root")
+  document.getElementById("GalleryParent")
 );
