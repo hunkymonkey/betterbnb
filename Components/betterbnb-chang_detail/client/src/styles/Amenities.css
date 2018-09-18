@@ -1,0 +1,36 @@
+#amenities{
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+#amenities h2{
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#list{
+  display: flex;
+  flex-flow: row wrap;
+  width: 44%;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+#list p{
+  width: 50%;
+  color: rgb(72, 72, 72);
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+#list p img{
+  position: relative;
+  left: -3px;
+  bottom: -6px;
+}
+#list h5{
+  color: rgb(0, 132, 137);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}

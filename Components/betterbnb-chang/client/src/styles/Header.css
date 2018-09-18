@@ -1,0 +1,15 @@
+#header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  height: 80px;
+}
+#logo {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  padding: 24px;
+}
+#logo:hover {
+  cursor: pointer;
+}

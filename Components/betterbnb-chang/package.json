@@ -1,0 +1,33 @@
+{
+  "name": "github-fetcher-fullstack-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -w",
+    "server-dev": "nodemon server/index.js",
+    "load-db": "node database/helper/dataLoader.js"
+  },
+  "author": "Beth Johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "css-loader": "^1.0.0",
+    "express": "^4.15.0",
+    "jquery": "^3.1.1",
+    "mongoose": "^4.8.6",
+    "mongoose-simple-random": "^0.4.1",
+    "nodemon": "^1.18.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.23.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
