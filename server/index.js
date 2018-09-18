@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const router = require('./router.js');
-const PORT = 8000;
+const PORT = 7000;
 
 const app = express();
 

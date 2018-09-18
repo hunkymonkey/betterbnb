@@ -5,7 +5,7 @@ mongoose.connect('mongodb://localhost/bbnb-header');
 
 let db = mongoose.connection;
 db.on('error', () => {
-  console.log('Error connecting to mongoDB');
+  console.log('no connection to mongoDB');
 });
 db.once('open', () => {
   console.log('Successfully connected to mongoDB');

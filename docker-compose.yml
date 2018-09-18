@@ -1,0 +1,8 @@
+version: "2"
+services:
+  bbnb_search:
+    container_name: bbnb_search
+    restart: always
+    build: .
+    ports:
+      - "70:7000"

@@ -3,19 +3,13 @@ import ReactDOM from 'react-dom';
 import Header from './components/Header.jsx';
 import styles from '../src/styles/index.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div>
-        <Header />
-      </div>
-    );
-  }
+const HeaderModule = () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 } 
 
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<HeaderModule />, document.getElementById('headerModule'));
