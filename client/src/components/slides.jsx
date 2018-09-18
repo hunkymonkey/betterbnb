@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styles from "../styles/styles.css";
+import $ from "jquery";
 
 class Slides extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class Slides extends Component {
         }}
       />
     ) : (
-      <div className={styles.isAnimated}>
+      <div className={styles.nico}>
         <ul className={styles.carouselIndicators}>
           {this.props.pictures.map((slide, index) => (
             <li key={index}>

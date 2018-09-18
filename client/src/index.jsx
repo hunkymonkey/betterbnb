@@ -4,6 +4,6 @@ import Parent from "./components/Parent.jsx";
 import Data from "../../Data.js";
 
 ReactDOM.render(
-  <Parent picture={Data[0].pictures[0]} />,
+  <Parent />,
   document.getElementById("root")
 );
