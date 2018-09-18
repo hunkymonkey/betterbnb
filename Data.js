@@ -28,6 +28,4 @@ https://i.postimg.cc/5NCGFMvg/top-10-houses-2017_dezeen_2364_ss_9-852x609.jpg`;
 
 let singleLinks = URLs.split("\n");
 
-console.log(singleLinks);
-
 module.exports = singleLinks;

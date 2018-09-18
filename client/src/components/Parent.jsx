@@ -24,7 +24,7 @@ class Parent extends React.Component {
 
   fetch() {
     axios
-      .get("http://0.0.0.0:80/betterbnb/pictures")
+      .get("http://localhost:1337/betterbnb/pictures")
       .then(({ data }) => {
         this.setState({ houses: data });
       })
