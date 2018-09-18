@@ -6,7 +6,7 @@ import Amenities from './components/Amenities.jsx';
 import Arrangement from './components/Arrangement.jsx';
 import styles from './styles/index.css';
 
-class App extends Component {
+class DetailModule extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,9 +31,8 @@ class App extends Component {
   };
 
   getRandomHouse() {
-    axios.get("/api/bbnb_detail")
+    axios.get("http://localhost:8000/api/bbnb_detail")
       .then(({data}) => {
-        console.log('data is', data.ownerName)
         this.setState({
           ownerName: data.ownerName,
           ownerPic: data.ownerPic,
@@ -48,7 +47,6 @@ class App extends Component {
           description: data.description,
           amenities: data.amenities
         });
-        console.log('this state is', this.state)
       })
       .catch(console.log('err getting back from axios get req'));
   }
@@ -65,4 +63,4 @@ class App extends Component {
   }
 };
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<DetailModule />, document.getElementById('detailModule'));

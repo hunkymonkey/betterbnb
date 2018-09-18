@@ -1,5 +1,6 @@
 #amenities{
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  width: 52%;
 }
 #amenities h2{
   color: rgb(72, 72, 72);
@@ -10,7 +11,7 @@
 #list{
   display: flex;
   flex-flow: row wrap;
-  width: 44%;
+  width: 90%;
   border-bottom: 1px solid rgb(224, 224, 224);
   padding-bottom: 25px;
   margin-bottom: 25px;

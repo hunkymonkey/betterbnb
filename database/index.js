@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const random = require("mongoose-simple-random");
 
-mongoose.connect('mongodb://mongo:27017/bbnb_detail');
+// mongoose.connect('mongodb://mongo:27017/bbnb_detail');
+mongoose.connect('mongodb://localhost/bbnb_detail');
 
 const db = mongoose.connection;
 db.on('error', () => {
