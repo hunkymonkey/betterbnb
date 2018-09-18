@@ -1,6 +1,7 @@
 #arrangementDiv{
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   width: 52%;
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
 #arrangementDiv h2{
   color: rgb(72, 72, 72);
@@ -9,10 +10,9 @@
   margin-bottom: 15px;
 }
 #list{
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  border-bottom: 1px solid rgb(224, 224, 224);
 }
 .listItem{
   width: 25%;
