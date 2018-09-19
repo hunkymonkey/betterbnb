@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BetterBNB</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="headerModule" style='display: block;'>Header</div>
+    <script type="text/javascript" src="./bundles/bundle_search.js"></script>
+  <div id="GalleryParent" style='display: block; margin: 30px 0 20px;'>Gallery Parent</div>
+    <script type="text/javascript" src="./bundles/bundle_banner.js"></script>
+  <div id="GalleryChild" style='display: block;'></div>
+    <script type="text/javascript" src="./bundles/bundle_banner.js"></script>
+  <div style='margin-left: 25%;'>
+    <div id="detailModule" style='display: block;'>Detail</div>
+      <script type="text/javascript" src="./bundles/bundle_detail.js"></script>
+    <div id="reviews" style='display: block; margin-top: 15px;'>Reviews</div>
+      <script type="text/javascript" src="./bundles/bundle_comments.js"></script>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document
+        .getElementById('GalleryParent')
+        .addEventListener('click', () => {
+          document.body.style.overflowY = 'hidden';
+        });
+      
+      document
+        .getElementById('GalleryChild')
+        .addEventListener('click', () => {
+          document.body.style.overflowY = 'auto';
+        });
+    });
+  </script>
+</body>
+</html>
