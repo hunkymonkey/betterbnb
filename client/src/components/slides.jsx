@@ -25,9 +25,9 @@ class Slides extends Component {
       />
     ) : (
       <div className={styles.nico}>
-        <ul className={styles.carouselIndicators}>
+        <ul className={`${styles.carouselIndicators} ${styles.unorderedList}`}>
           {this.props.pictures.map((slide, index) => (
-            <li key={index}>
+            <li key={index} className={styles.listItem}>
               <img
                 src={slide}
                 onClick={e => this.props.getSlide(index)}

@@ -68,8 +68,11 @@ class Child extends React.Component {
         <div className={styles.modalImage}>
           <div className={styles.exitBar} />
 
-          <img src={this.state.pictures[this.state.display]} />
-          
+          <img
+            src={this.state.pictures[this.state.display]}
+            className={styles.image2}
+            onClick={this.getNextSlide}
+          />
         </div>
         <div>
           <Slides
