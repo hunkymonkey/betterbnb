@@ -31,7 +31,7 @@ class DetailModule extends Component {
   };
 
   getRandomHouse() {
-    axios.get("http://localhost:8000/api/bbnb_detail")
+    axios.get("http://18.222.254.155:8000/api/bbnb_detail")
       .then(({data}) => {
         this.setState({
           ownerName: data.ownerName,
