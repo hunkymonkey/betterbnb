@@ -4,10 +4,13 @@ const parser = require("body-parser");
 const PORT = 1337;
 const app = express();
 const routes = require("./router.js");
+const cors = require("cors");
 
 app.use(parser.json());
 
 app.use(parser.urlencoded({ extended: true }));
+
+app.use(cors());
 
 app.use(`/betterbnb`, routes);
 

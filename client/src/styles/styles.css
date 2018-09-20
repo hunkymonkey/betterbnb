@@ -9,9 +9,8 @@
   overflow: hidden;
 }
 
-#modal-root {
+#GalleryChild {
   position: relative;
-  z-index: 999;
 }
 
 .modal {
@@ -25,6 +24,7 @@
   align-items: center;
   justify-content: center;
   animation: fadein 40ms;
+  z-index: 999;
 }
 @keyframes fadein {
   from {
@@ -60,15 +60,6 @@
   height: 561.6px;
 }
 
-/* body {
-  font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.43;
-  color: #484848;
-  background-color: #fff;
-  -webkit-font-smoothing: antialiased;
-} */
-
 .btn2 {
   right: 100%;
 }
@@ -99,10 +90,10 @@
 
 .exitBar {
   padding: 40px 15px 20px;
-  color: blue;
+  color: blue;  
 }
-
 .exitBtn,
+:global(.exitBtn),
 .exitBtn:hover {
   position: absolute;
   right: 0;
