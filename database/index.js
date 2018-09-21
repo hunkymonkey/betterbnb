@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb://localhost:27017/mockPic",
+  "mongodb://mongo/mockPic",
   { useNewUrlParser: true }
 );
 
@@ -12,3 +12,4 @@ db.once(`open`, () => {
 });
 
 module.exports = db;
+//lol this is the end
