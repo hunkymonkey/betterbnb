@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb://mongo/mockPic",
+  "mongodb://mongo:27017/mockPic",
   { useNewUrlParser: true }
 );
 
