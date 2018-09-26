@@ -1,0 +1,31 @@
+// import React from "react";
+// import { shallow } from ".../../enzyme";
+// import RightBtn from "../rightButton.jsx";
+// import Parent from "../Parent.jsx";
+// import Modal from "../Modal.jsx";
+// import Child from "../Child.jsx";
+
+// describe("<Parent/> test", () => {
+//   it("should render an image with no error", () => {
+//     expect(
+//       shallow(<RightBtn />).contains(
+//         <svg
+//           onClick={() => this.props.handleClick()}
+//           viewBox="0 0 18 18"
+//           role="presentation"
+//           aria-hidden="true"
+//           focusable="false"
+//           className={styles.btnStyle}
+//         >
+//           <path
+//             d="m4.29 1.71a1 1 0 1 1 1.42-1.41l8 8a1 1 0 0 1 0 1.41l-8 8a1 1 0 1 1 -1.42-1.41l7.29-7.29z"
+//             fillRule="evenodd"
+//           />
+//         </svg>
+//       )
+//     ).to.equal(true);
+//   });
+// });
+
+
+// test suite
