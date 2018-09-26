@@ -31,10 +31,11 @@ const randomImg = () => Math.floor(Math.random() * 1050) + 1;
 const randomDimension = () => Math.floor(Math.random() * 801) + 200;
 
 const genRandomImages = () => {
-  for (let i = 0; i < 100000; i++) {
+  for (let i = 0; i < 1000; i++) {
     URLs.push(`https://picsum.photos/${randomDimension()}/${randomDimension()}?image=${randomImg()}`);
   }
 }
+genRandomImages();
 
 let singleLinks = URLs;
 console.log(singleLinks);

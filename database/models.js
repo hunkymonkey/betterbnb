@@ -19,8 +19,6 @@ const random7 = arr => {
   return output;
 };
 
-console.log();
-
 module.exports.House = House;
 module.exports.random7 = random7;
 module.exports.randomIndexOf = randomIndexOf;
