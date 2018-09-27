@@ -41,6 +41,9 @@ const CreateFiles = fs.createWriteStream("./json_data.json", {
 });
 
 for (let i = 0; i < 10000001; i++) {
+  if (i % 1000000 === 0) {
+    console.log(i);
+  }
   let pictures = random7(imgLinkArr);
   let tempObj = {
     'houseId': i,
