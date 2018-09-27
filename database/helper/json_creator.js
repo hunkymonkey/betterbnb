@@ -1,28 +1,51 @@
 const fs = require('fs');
 const imgLinkArr = require('./img_link_data.js');
-const { random7 } = require('../models.js');
+// const { random7 } = require('../models.js');
 
-const arr = [];
+// const arr = [];
 
-const genRandomImages = () => {
-  for (let i = 0; i < 10000000; i++) {
-    let pictures = random7(imgLinkArr);
-    let tempObj = {
-      'houseId': i,
-      'pictures': pictures
-    };
-    arr.push(JSON.stringify(tempObj));
+// const genRandomImages = () => {
+//   for (let i = 0; i < 1000000; i++) {
+//     let pictures = random7(imgLinkArr);
+//     let tempObj = {
+//       'houseId': i,
+//       'pictures': pictures
+//     };
+//     arr.push(JSON.stringify(tempObj));
+//   }
+// };
+
+// genRandomImages();
+
+// const CreateFiles = fs.createWriteStream('./json_data.json', {
+//   flags: 'a' //flags: 'a' preserved old data
+// })
+
+// fs.writeFile('./json_data.json', arr, err => {
+//   if (err) {
+//     console.log('error creating json file');
+//   }
+// })
+const randomIndexOf = arr => Math.floor(Math.random() * arr.length);
+
+const random7 = arr => {
+  let output = [];
+  for (let i = 0; i < 7; i++) {
+    output.push(arr[randomIndexOf(arr)]);
   }
+  return output;
 };
 
-genRandomImages();
+const CreateFiles = fs.createWriteStream("./json_data.json", {
+  flags: "a" //flags: 'a' preserved old data
+});
 
-const CreateFiles = fs.createWriteStream('./tsv_data.tsv', {
-  flags: 'a' //flags: 'a' preserved old data
-})
-
-fs.writeFile('./json_data.json', arr, err => {
-  if (err) {
-    console.log('error creating json file');
-  }
-})
+for (let i = 0; i < 10000001; i++) {
+  let pictures = random7(imgLinkArr);
+  let tempObj = {
+    'houseId': i,
+    'pictures': pictures
+  };
+  let tempObjStr = JSON.stringify(tempObj);
+  CreateFiles.write(tempObjStr);
+}
