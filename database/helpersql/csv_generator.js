@@ -22,6 +22,8 @@ function write() {
     const docs =
       i +
       "," +
+      i +
+      "," +
       picture +
       "," +
       picture +
@@ -57,6 +59,7 @@ function write() {
 
 // CREATE TABLE houses (
 //   item_id INT NOT NULL,
+//   houseId INT NOT NULL,
 //   image1 VARCHAR(80) NOT NULL,
 //   image2 VARCHAR(80) NOT NULL,
 //   image3 VARCHAR(80) NOT NULL,
