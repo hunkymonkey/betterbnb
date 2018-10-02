@@ -53,34 +53,7 @@ function write() {
   }
 }
 
-
-// let picture = random(imgLinkArr);
-
-// for (let i = 0; i < limit; i++) {
-//   if (i % 1000000 === 0) {
-//     console.log(i);
-//   }
-//   const docs =
-//     i +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "," +
-//     picture +
-//     "\n";
-
-//   CreateFile.write(docs);
-// }
-//node --max-old-space-size=6000 csv_generator.js
+//node csv_generator.js
 
 // CREATE TABLE houses (
 //   item_id INT NOT NULL,
@@ -95,4 +68,4 @@ function write() {
 // );
 
 // mysql -u root -p --local-infile=1 bbnb
-//LOAD DATA LOCAL INFILE '/Users/userlee8742/Desktop/betterbnb-Danyo/database/helpersql/sql_data.csv' INTO TABLE houses FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
+// LOAD DATA LOCAL INFILE '/Users/userlee8742/Desktop/betterbnb-Danyo/database/helpersql/sql_data.csv' INTO TABLE houses FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';

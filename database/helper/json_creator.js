@@ -20,7 +20,7 @@ function write() {
   let ok = true;
   do {
     i--;
-    if (i % 1000000) {
+    if (i % 1000000 === 0) {
       console.log(i);
     }
     let pictures = random7(imgLinkArr);
