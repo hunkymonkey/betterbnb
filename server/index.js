@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+require('newrelic');
 const parser = require("body-parser");
 const PORT = 1337;
 const app = express();

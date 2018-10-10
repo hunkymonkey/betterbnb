@@ -1,0 +1,11 @@
+config:
+  target: 'http://localhost:1337'
+  phases:
+    - duration: 60
+      arrivalRate: 40
+scenarios:
+  - flow:
+    - loop:
+      - get:
+          url: '/betterbnb/pictures'
+      count: 10

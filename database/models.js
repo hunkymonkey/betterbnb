@@ -1,11 +1,14 @@
 const mongoose = require("mongoose");
 const db = require("./index.js");
 const URLs = require("../Data.js");
+const random = require("mongoose-simple-random");
 
 const houseSchema = mongoose.Schema({
   houseId: Number,
   pictures: [String]
 });
+
+houseSchema.plugin(random);
 
 const House = mongoose.model("House", houseSchema);
 

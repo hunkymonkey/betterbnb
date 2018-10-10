@@ -6,3 +6,4 @@ bundleKevin.js
 database/helper/json_data.json
 database/helpersql/sql_data.csv
 package-lock.json
+newrelic.js

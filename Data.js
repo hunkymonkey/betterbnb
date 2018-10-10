@@ -38,6 +38,6 @@ const genRandomImages = () => {
 genRandomImages();
 
 let singleLinks = URLs;
-console.log(singleLinks);
+// console.log(singleLinks);
 
 module.exports = singleLinks;

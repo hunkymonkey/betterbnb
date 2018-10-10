@@ -26,15 +26,16 @@ class Parent extends React.Component {
     axios
       .get("http://localhost:1337/betterbnb/pictures")
       .then(({ data }) => {
-        this.setState({ houses: data });
+        console.log('big ass data is', data)
+        this.setState({ house: data });
       })
-      .then(() => {
-        let houses = this.state.houses;
-        this.setState({
-          house: houses[randomIndexOf(houses)]
-        });
-      })
-      .catch(err => console.log(err));
+      // .then(() => {
+      //   let houses = this.state.houses;
+      //   this.setState({
+      //     house: houses[randomIndexOf(houses)]
+      //   });
+      // })
+      .catch(err => console.log('error is ', err));
   }
 
   handleExit() {
